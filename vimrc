@@ -11,7 +11,10 @@ set nobackup
 set nowb
 set noswapfile
 
-" Escaping Insert Mode
+" Backspace
+set backspace=indent,eol,start
+
+" Custom Shortcuts
 imap jj <ESC>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
