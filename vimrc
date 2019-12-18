@@ -1,56 +1,57 @@
-" Use spaces instead of tabs
-set expandtab
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vikhari Vim Run Commands
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" META & MISCELLANEOUS
 
-" Be smart when using tabs
-set smarttab
+" Mouse
+set mouse=a
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
-
-set ai "Auto indent
-set si "Smart indent
-
-
-" Turn backup off, since most stuff is in SVN, git etc.
+" Backup
 set nobackup
 set nowb
 set noswapfile
 
-" Enable syntax highlighting
-syntax enable
+" Escaping Insert Mode
+imap jj <ESC>
 
-colorscheme desert
-set background=dark
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" AUDIOVISUAL
 
-" No annoying sound on errors
+" Audio
 set noerrorbells
+
+" Visual Meta
+set background=dark
 set novisualbell
-
-" Show matching brackets when text indicator is over them
-set showmatch
-" How many tenths of a second to blink when matching brackets
-set mat=2
-
-" Ignore case when searching
-set ignorecase
-
-" When searching try to be smart about cases 
-set smartcase
-
-" Highlight search results
-set hlsearch
-
-" Makes search act like search in modern browsers
-set incsearch
-
-"Always show current position
 set ruler
-
-"Line numbers
 set number
 
-"Turn on mouse support
-set mouse=a
+" Visual Text
+syntax enable
+colorscheme desert
+set mat=2
 
-imap jj <ESC>
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" SPACING
+
+" Tabs
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set ai "Auto indent
+set si "Smart indent
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" SEARCHING
+
+" Functionality
+set incsearch
+set ignorecase
+set smartcase
+
+" Visualization
+set showmatch
+set hlsearch
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
