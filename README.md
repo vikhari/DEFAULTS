@@ -1,2 +1,2 @@
 # Defaults
-Defaults, settings, configs, and other useful files.
+Defaults, configs, cheat sheets, and other useful files.
