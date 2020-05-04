@@ -172,5 +172,5 @@ fi
 
 
 
-# Use bash-autocomplete for OSX (add to bash_profile typically rather than this file).
+# Use bash autocomplete for OSX (add to bash_profile typically rather than this file).
 # [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
