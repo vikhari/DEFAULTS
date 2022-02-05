@@ -1,0 +1,32 @@
+----------------------------------
+COMMAND CHEATSHEET
+----------------------------------
+
+
+----------------------------------
+BASH TERMINAL
+----------------------------------
+Random Helpful Stuff
+- find -iname "query" = find file by name
+- locate <packagename> | grep bin = find files/folders with package name and bin (not real time, faster than find)
+- whereis <packagename> = determine location of command/program (real time)
+- grep <string> = to search strings
+- | = pipe output from one command to another
+- dpkg --get-selections | grep <string> = find all packages for ubuntu with string in the name
+- apt-get install <package> = install package, apt-get purge/remove <package> = remove package fully (including local data and config files)
+- sudo!! = execute last command with sudo
+
+----------------------------------
+GENERAL NUX
+----------------------------------
+- Edit sudeoers file: visudo /etc/sudoers THEN username ALL=(ALL:ALL) ALL
+- whohas = serach for which Linux distros have a package
+
+
+----------------------------------
+PYTHON
+----------------------------------
+- python -m pdb <file> (python debugger; s = step into, n = next line)
+
+
+----------------------------------

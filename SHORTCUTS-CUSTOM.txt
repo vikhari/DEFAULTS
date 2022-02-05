@@ -1,0 +1,151 @@
+----------------------------------
+KEYBOARD SHORTCUTS - CUSTOM
+----------------------------------
+
+Command/Super/Windows and Alt/Opt may be interchanbeable.
+
+Numbers indicate correlated functions between operating systems.
+Lines starting with - instead of a number indicate an extra feature not present on the other operating systems.
+
+Using > instead of = on a line signifies the mapping is not a default and needs to be set.
+If X instead of = an equivalent mapping for the operating system as the others is not present.
+
+
+----------------------------------
+NAVIGATION - DISPLAYS & WORKSPACES
+----------------------------------
+Win
+00                              X see windows of current application (Application Windows)
+01 Windows + Tab                = Overview/Mission Control/View Applications (map this to middle mouse button)
+02 Windows + Arrow              = resize/snap window (can be used to move across displays)
+03 Windows + Shift + Left/Right = move window one monitor to the left/right (or use 02 above)
+04                              X move window one workspace over (up/down or left/right)
+05 Windows + Ctrl + Left/Right  = switch workspace
+06                              X switch window of current application
+07 Alt + Tab                    = switch application (and all windows of all applications)
+08 Windows + L                  = lock screen
+09 Windows + D                  = show/hide Desktop
+10                              X show/hide Applications/Launchpad
+-----------------
+Deb
+00                              X see windows of current application (Application Windows)
+01 Super + S                    = Overview/Mission Control/View Applications (map this to middle mouse button)
+02 Super + Arrow                = resize/snap window (cannot be used to move across displays)
+03 Super + Shift + Left/Right   = move window one monitor to the left/right
+04 Super + Shift + PageUp/Down  = move window one workspace over (up/down or left/right)
+05 Super + Ctrl + Left/Right    > switch workspace
+06 Ctrl + Alt + Tab             = switch window of current application
+07 Super + Tab                  = switch application
+08 Super + L                    = lock screen
+09 Super + D                    > show/hide all normal windows
+10 Super + A                    = show/hide Applications/Launchpad
+-----------------
+Osx
+00 Command + Opt + Down         > see windows of current application (Application Windows)
+01 Command + Opt + Up           > Overview/Mission Control/View Applications (map this to middle mouse button)
+02 Ctrl + Opt + Arrow           > resize/snap window (needs HyperDock or an equivalent snapping program)
+03                              X move window one monitor to the left/right
+04                              X move window one workspace over (up/down or left/right)
+05 Command + Ctrl + Left/Right  = switch workspace
+06 Command + Opt + Tab          > switch window of current application ("Move focus to next window")
+07 Command + Tab                = switch application
+08 Command + Ctrl + Q           = lock screen
+09 Ctrl + Opt + D               = show/hide Desktop
+10 Ctrl + Opt + A               > show/hide Applications/Launchpad
+-----------------
+
+
+----------------------------------
+APPS - AUTOMATOR SERVICE/SHORTCUTS
+----------------------------------
+Win & Deb (create Win shortcuts to executable, or set in Ubuntu keyboard system settings)
+01 Ctrl + Alt + Shift + F       > nautilus (file browser) 
+02 Ctrl + Alt + Shift + D       > terminator (cmd terminal)
+03 Ctrl + Alt + Shift + W       > firefox (web browser; pin primary browser in dock)
+04 Ctrl + Alt + Shift + E       > subl (text editor)
+-----------------
+Osx (create Automator services to run from Finder)
+01 Command + Opt + Shift + F    > Finder (file browser; "Show Finder search window")
+02 Command + Opt + Shift + D    > iTerm2 (cmd terminal)
+03 Command + Opt + Shift + W    > firefox (web browser; pin primary browser in dock)
+04 Command + Opt + Shift + E    > sublime-text (text editor)
+Note that these will not work if focus is on an application that has a shortcut using some of the modifiers (simply tab to another app to execute shortcut)
+-----------------
+
+
+----------------------------------
+OPERATING SYSTEM - BUILT-IN EXTRAS
+----------------------------------
+Win & Deb
+01 Ctrl + Alt + S               > screenshot and save to file (desktop)
+02 Ctrl + Alt + Shift + S       > screenshot and copy to clipboard (select area)
+03 Windows/Super + typing       > search
+04                              X show help menu
+-----------------
+Osx
+01 Command + Alt + S            > screenshot and save to file (desktop)
+02 Command + Opt + Shift + S    > screenshot and copy to clipboard (select area)
+03 Command + Space              > search (Spotlight)
+04 Command + Ctrl + /           > show help menu
+-----------------
+
+
+----------------------------------
+TERMINATOR - IGNORE OTHER KEYBINDS
+----------------------------------
+Deb
+- Fullscreen                    = F11
+- Alt + Arrow                   = go_up/down/left/right
+- Ctrl + (+)                    = zoom_in
+- Ctrl + (-)                    = zoom_out
+- Ctrl + Tab                    = cycle_next
+- Ctrl + Shift + C              = copy
+- Ctrl + Shift + V              = paste
+- Ctrl + Shift + O              = split horizontal
+- Ctrl + Shift + E              = split vertical
+- Ctrl + Shfit + F              = search
+- Ctrl + Shift + Enter          = toggle_zoom (maximize terminal window)
+- Ctrl + Shift + PageUp/Down    > line_up/down
+- Ctrl + Shift + Arrow          > resize_up/down/left/right
+-----------------
+
+
+----------------------------------
+ITERM2 - REMAP MODIFIERS FOR FIRST
+----------------------------------
+Modifiers (app will require Accessibility access)
+- Control                       > Left Command
+- Left Command                  > Control
+Note that the remapped modifiers from the system already apply (Caps Lock is Ctrl), thus, for example toggling fullscreen below is not Command + Shift + Enter on the physical keyboard, but rather Opt + Shift + Enter.
+Think of Command below as Opt (physical key).
+-----------------
+Shortcuts
+- Command + Up                  = scroll up to last command prompt
+- Command + C                   = hold Option while highlighting text in Vim with mouse (mouse=a in vimrc)
+- Command + Shift + C           = enter copy mode (from here use Vim shortcuts to select and then Y to yank)
+- Command + Shift + =/-         = increase/decrease font size
+- Command + [/]                 = visit previous/next pane
+- Command + ;                   = autocomplete (untested alternate methods: install bash-completion to use Tab; install shell integration)
+- Command + Shift + Enter       = toggle fullscreen of active pane
+- Command + I                   = bring up Session settings (to switch profile etc.)
+-----------------
+
+
+----------------------------------
+OSX MODIFIERS - KEYBOARD REMAPPING
+----------------------------------
+Apple/Internal Keyboard
+- Caps Lock Key                 > Command
+- Control Key                   > Caps Lock
+- Option Key                    > Control
+- Command Key                   > Option
+-----------------
+Windows/Kinesis Keyboard
+- Caps Lock Key                 > Command
+- Control Key                   > Control (iTerm2 shortcuts less cramped/Caps Lock not used often)
+- Option Key                    > Option
+- Command Key                   > Control
+-----------------
+Non-Apple Mouse
+- To have normal scrolling on mice (while keeping natural scrolling on trackpad) use BetterTouchTool.
+-----------------
