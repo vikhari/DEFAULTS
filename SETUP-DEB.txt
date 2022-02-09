@@ -4,6 +4,7 @@ IMAGE & INSTALL
 
 Install operating system, setting up the user, device name, and if desired selecting 3rd party software installations.
 Then install the apps from APP-LIST-DEB.txt before proceeding to configure the apps via SETUP-DEB-AUTO.sh script, or manually via procedure below.
+If desired, configure mouse via Piper to complement default/custom keyboard shortcuts (using mappings in SHORTCUTS-MOUSE.txt).
 
 
 ----------------------------------
