@@ -143,6 +143,7 @@ Finder (Osx)
 - Command + Up/Down             = navigate into and out of folders
 -----------------
 Google Chrome
+- Alt + Home                    = home page
 - Ctrl + Scroll                 = zoom
 - Ctrl + 0                      = reset zoom
 - Ctrl + W                      = close current tab
