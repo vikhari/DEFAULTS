@@ -2,8 +2,8 @@
 OSX GESTURES AND GUI CUSTOMIZATION
 ----------------------------------
 Touchpad Gesture Navigation
-- All Point and Click gestures checked.
-- All Scroll and Zoom gestures except Rotate checked.
+- All Point and Click gestures checked
+- All Scroll and Zoom gestures except Rotate checked
 - Swipe between pages               = 2-finger Left/Right
 - Swipe between spaces              = 4-finger Left/Right
 - Notification Center               = 2-finger Left from right edge
@@ -15,7 +15,7 @@ Touchpad Gesture Navigation
 GUI Customization
 - The millisecond delay before highlighted text can be deleted (3-finger method): defaults write -g NSDragAndDropTextDelay -int 60
 - Reduce the Dock animation time resulting in faster pop-up/pop-down: defaults write come.apple.dock autohide-time-modifier -float 0.25; killall Dock
-- A 2-finger swipe on menu bar of a window maximizes up/down the application window.
+- A 2-finger swipe on menu bar of a window maximizes up/down the application window
 -----------------
 
 
