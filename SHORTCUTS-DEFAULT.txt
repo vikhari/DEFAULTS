@@ -73,7 +73,7 @@ Bash Terminal
 - Ctrl + K                      = cut text into buffer from cursor to end of line
 - Ctrl + Y                      = yank back (paste) text from buffer
 - Ctrl + W                      = cut last word into buffer (behind cursor)
-- Alt + D                       = delete next word (from cursor forward)
+- Alt + D                       = cut next word into buffer (from cursor forward)
 - Ctrl + R                      = search-command history (after entering query repeat keystroke to cycle through matches, then use Tab)
 - Ctrl + Home/End               = beginning/end of current line being typed OR Ctrl+A=beginning, Ctrl+E=end
 - Shift + PageUp/Down           = PageUp/Down
