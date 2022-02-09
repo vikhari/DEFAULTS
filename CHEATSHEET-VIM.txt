@@ -4,6 +4,7 @@ VIM CHEATSHEET
 
 Most of these are defaults but some may be custom based off vimrc.
 
+
 ----------------------------------
 COMMAND MODE
 ----------------------------------
