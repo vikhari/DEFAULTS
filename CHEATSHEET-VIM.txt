@@ -1,5 +1,5 @@
 ----------------------------------
-CHEATSHEET - VIM
+CHEATSHEET - GVIM
 ----------------------------------
 
 Most of these are defaults but some may be custom based off vimrc.
