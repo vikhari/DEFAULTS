@@ -2,6 +2,7 @@
 COMMAND CHEATSHEET
 ----------------------------------
 
+A more formal version of this file may eventually be created but currently this is a dump of some commonly used things.
 
 ----------------------------------
 BASH TERMINAL
@@ -15,18 +16,19 @@ Random Helpful Stuff
 - dpkg --get-selections | grep <string> = find all packages for ubuntu with string in the name
 - apt-get install <package> = install package, apt-get purge/remove <package> = remove package fully (including local data and config files)
 - sudo!! = execute last command with sudo
+-----------------
+
 
 ----------------------------------
 GENERAL NUX
 ----------------------------------
 - Edit sudeoers file: visudo /etc/sudoers THEN username ALL=(ALL:ALL) ALL
 - whohas = serach for which Linux distros have a package
+-----------------
 
 
 ----------------------------------
 PYTHON
 ----------------------------------
 - python -m pdb <file> (python debugger; s = step into, n = next line)
-
-
-----------------------------------
+-----------------
