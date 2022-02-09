@@ -46,7 +46,7 @@ Win
 04                              X move window one workspace over (Deb: up/down; Osx/Win: left/right)
 05 Windows + Ctrl + Left/Right  = switch workspace
 06                              X switch window of an/current application (Osx: "Move focus to next window")
-07 Alt + Tab                    = switch window (between all application windows)
+07 Alt + Tab                    = switch window (between all application windows on current workspace)
 08 Ctrl + W                     = close window (Deb/Osx: works in most applications; Win: some applications)
 09 Super + Tab                  X switch application
 10 Windows + L                  = lock screen
@@ -61,7 +61,7 @@ Deb
 04 Super + Shift + Up/Down      > move window one workspace over (Deb: up/down; Osx/Win: left/right)
 05 Super + Ctrl + Left/Right    > switch workspace
 06 Ctrl + Alt + Tab             > switch window of an/current application (Osx: "Move focus to next window")
-07 Alt + Tab                    = switch window (between all application windows)
+07 Alt + Tab                    = switch window (between all application windows on current workspace)
 08 Ctrl + W                     = close window (Deb/Osx: works in most applications; Win: some applications)
 09 Super + Tab                  = switch application
 10 Super + L                    = lock screen
@@ -76,7 +76,7 @@ Osx
 04                              X move window one workspace over (Deb: up/down; Osx/Win: left/right)
 05 Command + Ctrl + Left/Right  > switch workspace
 06 Command + Opt + Tab          > switch window of an/current application (Osx: "Move focus to next window")
-07                              X switch window (between all application windows)
+07                              X switch window (between all application windows on current workspace)
 08 Command + W                  = close window (Deb/Osx: works in most applications; Win: some applications)
 09 Command + Tab                = switch application
 10 Command + Ctrl + Q           = lock screen
