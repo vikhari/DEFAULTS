@@ -8,22 +8,22 @@ A more formal version of this file may eventually be created but currently this 
 BASH TERMINAL
 ----------------------------------
 Random Helpful Stuff
-- find -iname "query" = find file by name
-- locate <packagename> | grep bin = find files/folders with package name and bin (not real time, faster than find)
-- whereis <packagename> = determine location of command/program (real time)
-- grep <string> = to search strings
-- | = pipe output from one command to another
+- find -iname "query"           = find file by name
+- whereis <packagename>         = determine location of command/program (real time)
+- grep <string>                 = to search strings
+- sudo!!                        = execute last command with sudo
+- |                             = pipe output from one command to another
+- apt-get install <package>     = install package, apt-get purge/remove <package> = remove package fully (including local data and config files)
 - dpkg --get-selections | grep <string> = find all packages for ubuntu with string in the name
-- apt-get install <package> = install package, apt-get purge/remove <package> = remove package fully (including local data and config files)
-- sudo!! = execute last command with sudo
+- locate <packagename> | grep bin = find files/folders with package name and bin (not real time, faster than find)
 -----------------
 
 
 ----------------------------------
-GENERAL NUX
+GENERAL NIX
 ----------------------------------
-- Edit sudeoers file: visudo /etc/sudoers THEN username ALL=(ALL:ALL) ALL
-- whohas = serach for which Linux distros have a package
+- Sudo privs: visudo /etc/sudoers THEN username ALL=(ALL:ALL) ALL OR %group ALL=(ALL:ALL) ALL
+- whohas                        = serach for which Linux distros have a package
 -----------------
 
 
