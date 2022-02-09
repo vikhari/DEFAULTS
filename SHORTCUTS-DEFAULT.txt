@@ -4,6 +4,7 @@ KEYBOARD SHORTCUTS - CHEATSHEET
 
 Command/Super/Windows and Alt/Opt may be interchanbeable.
 
+
 ----------------------------------
 BASICS - TEXT EDITING AND BROWSING
 ----------------------------------
