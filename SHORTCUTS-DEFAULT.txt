@@ -68,10 +68,11 @@ Bash Terminal
 - Ctrl + N/P                    = down/up
 - Ctrl + A                      = beginning of line
 - Ctrl + E                      = end of line
-- Ctrl + U                      = erase from cursor to beginning of line
-- Ctrl + K                      = erase from cursor to end of line
 - Ctrl + H                      = delete (also Ctrl + 8)
-- Ctrl + W                      = delete last word (behind cursor)
+- Ctrl + U                      = cut text into buffer from cursor to beginning of line
+- Ctrl + K                      = cut text into buffer from cursor to end of line
+- Ctrl + Y                      = yank back (paste) text from buffer
+- Ctrl + W                      = cut last word into buffer (behind cursor)
 - Alt + D                       = delete next word (from cursor forward)
 - Ctrl + R                      = search-command history (after entering query repeat keystroke to cycle through matches, then use Tab)
 - Ctrl + Home/End               = beginning/end of current line being typed OR Ctrl+A=beginning, Ctrl+E=end
