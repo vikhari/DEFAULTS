@@ -1,5 +1,5 @@
 ----------------------------------
-COMMAND CHEATSHEET
+CHEATSHEET - COMMANDS
 ----------------------------------
 
 A more formal version of this file may eventually be created but currently this is a dump of some commonly used things.
