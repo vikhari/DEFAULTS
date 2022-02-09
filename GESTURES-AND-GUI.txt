@@ -18,6 +18,7 @@ GUI Customization
 - A 2-finger swipe on menu bar of a window maximizes up/down the application window.
 -----------------
 
+
 ----------------------------------
 WIN GESTURES
 ----------------------------------
