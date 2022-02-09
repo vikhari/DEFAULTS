@@ -2,6 +2,8 @@
 VIM CHEATSHEET
 ----------------------------------
 
+Most of these are defaults but some may be custom based off vimrc.
+
 ----------------------------------
 COMMAND MODE
 ----------------------------------
@@ -53,6 +55,7 @@ COMMAND MODE
 - `<number> = jump to position in previous file edited (this is registered in the viminfo file once a file is viewed/edited and closed, but only if a mark/`# is NOT used to jump to another file; i.e. opening a file, jumping using a mark, and then closing doesn't register the opened file into the viminfo list) (each time a new file is entered into the viminfo list, again, via not using a mark jump, the files shift: 0>1>2>3>4>5>6>7>8>9)
 - M <letter> = set a mark at column/line in current file, ' + <letter> = visit beginning of line of mark (if another vim window with the same file is open via split these will be remembered even if the current window is closed and reopened)
 - Q + <letter> + Q = record a sequence to a register, @<letter> to recall as a command, Q + <register_letter> + Q = delete/blank the register
+-----------------
 
 ----------------------------------
 INSERT MODE
@@ -72,6 +75,7 @@ INSERT MODE
 - Ctrl + H = backspace
 - Ctrl + C = exit insert mode
 - JJ = exit insert mode (if the following is in .vimrc: imap jj <ESC>)
+-----------------
 
 ----------------------------------
 VISUAL MODE
@@ -84,6 +88,7 @@ VISUAL MODE
 - Visual Block Mode > highlight lines > Shift + I > Insert Mode > # > Esc (Ctrl + C or, if set, JJ) = comment multiple lines (decomment = X instead of Shift + I)
 - < OR > = indent block back or forward (need to type colon first if in Block Mode)
 - Select text > u/U = lowercase or uppercase
+-----------------
 
 ----------------------------------
 PYTHON JEDI
@@ -92,5 +97,4 @@ PYTHON JEDI
 - \G = goto function
 - \D = goto identifier as far as possible (this opens a new tab displaying the end find result; use mouse to select betwen tabs; double click green area to open a new tab/file), Ctrl + W then Q = close window
 - \R = rename
-
-----------------------------------
+-----------------
