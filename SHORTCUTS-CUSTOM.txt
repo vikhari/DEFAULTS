@@ -127,9 +127,8 @@ TERMINATOR - IGNORE OTHER KEYBINDS
 ----------------------------------
 Deb
 - Fullscreen                    = F11
+- Ctrl + Shift + PageUp/Down    > line_up/down
 - Alt + Arrow                   = go_up/down/left/right
-- Ctrl + (+)                    = zoom_in
-- Ctrl + (-)                    = zoom_out
 - Ctrl + Tab                    = cycle_next
 - Ctrl + Shift + C              = copy
 - Ctrl + Shift + V              = paste
@@ -137,8 +136,9 @@ Deb
 - Ctrl + Shift + E              = split vertical
 - Ctrl + Shfit + F              = search
 - Ctrl + Shift + Enter          = toggle_zoom (maximize terminal window)
-- Ctrl + Shift + PageUp/Down    > line_up/down
 - Ctrl + Shift + Arrow          > resize_up/down/left/right
+- Ctrl + Shift + (+)            = zoom_in
+- Ctrl + Shift + (-)            = zoom_out
 -----------------
 
 
