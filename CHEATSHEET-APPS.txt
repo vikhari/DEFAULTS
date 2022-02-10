@@ -1,5 +1,5 @@
 ----------------------------------
-KEYBOARD SHORTCUTS - DEFAULT
+CHEATSHEET - APPS
 ----------------------------------
 
 Command/Super/Windows and Alt/Opt may be interchanbeable.
