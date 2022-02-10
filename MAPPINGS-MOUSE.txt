@@ -1,8 +1,8 @@
 ----------------------------------
-MOUSE SHORTCUTS - CUSTOM
+MAPPINGS - MOUSE
 ----------------------------------
 
-These mouse mappings aim to complement the cross-OS keyboard mappings (found in SHORTCUTS-DEFAULT.txt and SHORTCUTS-CUSTOM.txt),
+These mouse mappings aim to complement the cross-OS keyboard mappings (found in CHEATSHEET-APPS.txt and MAPPINGS-KEYBOARD.txt),
 as well as to perform the most common actions one may want to perform without touching the keybaord:
 - switching tabs to read,
 - changing windows to read,
@@ -22,7 +22,7 @@ MACROS
 - Left Forward Key              > move right one tab                         (Ctrl + Tab          in most browsers)
 - Right Backward Key            = backward                                   (Alt/Command + Left  in most browsers, but this macro often does not need to be set manually)
 - Right Forward Key             = forward                                    (Alt/Command + Right in most browsers, but this macro often does not need to be set manually)
-- Wheel Click (wheel)           > Overview/Mission Control/View Applications (as indicated in SHORTCUTS-DEFAULT.txt; can be used to change workspaces)
+- Wheel Click (wheel)           > Overview/Mission Control/View Applications (as indicated in CHEATSHEET-APPS.txt; can be used to change workspaces)
 - Wheel Left                    = copy
 - Wheel Right                   = Enter                                      (this mapping allows you to copy using Wheel Left, click-paste, and Enter to perform searches)
 - DPI Up/Down                   > scroll left/right
@@ -31,6 +31,6 @@ MACROS
 - Left/Right Click              = defaults
 - Backward Key                  = backward                                   (Alt/Command + Left  in most browsers, but this macro often does not need to be set manually)
 - Forward Key                   = forward                                    (Alt/Command + Right in most browsers, but this macro often does not need to be set manually)
-- Wheel Click (wheel)           > Overview/Mission Control/View Applications (as indicated in SHORTCUTS-DEFAULT.txt; can be used to change workspaces)
+- Wheel Click (wheel)           > Overview/Mission Control/View Applications (as indicated in CHEATSHEET-APPS.txt; can be used to change workspaces)
 - DPI Up/Down                   > scroll left/right
 -----------------
