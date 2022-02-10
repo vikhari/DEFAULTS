@@ -1,5 +1,5 @@
 ----------------------------------
-KEYBOARD SHORTCUTS - CUSTOM
+MAPPINGS - KEYBOARD
 ----------------------------------
 
 Command/Super/Windows and Alt/Opt may be interchanbeable.
