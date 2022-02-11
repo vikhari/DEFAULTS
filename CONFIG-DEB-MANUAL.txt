@@ -1,5 +1,5 @@
 ----------------------------------
-CONFIG - MANUAL (DEBIAN)
+CONFIG - DEBIAN (MANUAL)
 ----------------------------------
 
 Install operating system, setting up the user, device name, and if desired selecting 3rd party software installations.
