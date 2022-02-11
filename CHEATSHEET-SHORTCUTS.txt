@@ -43,9 +43,9 @@ Apple Keyboard
 BROWSERS
 ----------------------------------
 All
-- Ctrl + PageUp/Down            = next/previous tab in some file/web browsers (an alternative or duplicate to the Win/Deb mapping below)
+- Ctrl + PageUp/Down            = next/previous tab in some file/web browsers (an alternative/duplicate to the mapping below for Win/Deb)
 - Ctrl + (Shift) + Tab          = next/previous tab in most file/web browsers (map to thumb mouse buttons as indicated in SETTINGS-MOUSE-MAPPINGS.txt)
-- Command + Opt + Left/Right    = next/previous tab in most file/web browsers (a replacement for the two mappings above on Osx)
+- Command + Opt + Left/Right    = next/previous tab in most file/web browsers (an alternative/duplicate to the mapping above for Osx)
 - Alt/Command + Left/Right      = backward/foward in file/web browsers except Finder on Osx (map to pinky buttons as indicated in SETTINGS-MOUSE-MAPPINGS.txt)
 - Command/Ctrl + W              = close current tab/window
 - Command/Alt + Up/Down         = navigate up a directory or into currently selected directory
