@@ -11,27 +11,29 @@ However, some core applications are hidden as they are brought up via keyboard s
 APPS
 ----------------------------------
 Navigation
-- Better Touch Tool
-- Hyper Dock
-- Logitech G Hub
-- Smartset (Kinesis split ergonomic keyboard tool; macros: see SETTINGS-KEYBOARD-MACROS.txt)
+- Better Touch Tool (supports Touch Bar customization on Macbook Pro; necessary to have normal mouse scrolling while using natural scrolling on trackpad)
+- Hyper Dock        (useful for window snapping)
+- Logitech G Hub    (supports mouse macros)
+- Smartset          (Kinesis split ergonomic keyboard tool; macros: see SETTINGS-KEYBOARD-MACROS.txt)
 -----------------
 Taskbar/Menu
-- Bartender
-- iStat Menu
-- itsycal
+- Bartender         (Menu Bar customization allowing for at-a-glance performance stats and hiding always-open background services like BTT)
+- iStat Menus       (easy-access performance stats via Notification Center)
+- itsycal           (bigger calendar pulldown from Menu Bar than what is provided out of box by Osx)
 -----------------
 Other
-- Chromium (with Bookolio and Adblock plugins)
-- Foxit Reader
-- Inkscape
-- iTerm2
-- Libre Office
+- Chrome            (with Bookolio and Adblock plugins)
+- Foxit Reader      (cross-platofrm PDF reader with customizable background color which eases screens on eyes)
+- Inkscape          (open-source Adobe Illustrator alternative for Osx)
+- iTerm2            (terminal for Osx)
+- LibreOffice       (cross-platform free office suite)
 - Microsoft Remote Desktop
 - Slack
 - Spotify
-- Sublime Text
-- The Unarchiver
+- Sublime
+- The Unarchiver    (compression tool supporting a plethora of formats)
+- Thunderbird       (allows for multiple email accounts to be used in one place, password-protected, and with any server authentication)
+- Zoom
 -----------------
 
 
@@ -45,15 +47,16 @@ Defaults
 -----------------
 Essentials
 - Libre Office
-- Sublime Text
+- Sublime
 - Foxit Reader
 - Google Chrome
 -----------------
 Communication
+- Thunderbird
 - Slack
 -----------------
 Separator
-- <space> (this is an invisible separator that can be added via restarting Dock after this command: defaults write com.apple.dock persistent-apps -array-add '{tile-type="spacer-tile";}')
+- <space>           (invisible separator; restart Dock service after adding: defaults write com.apple.dock persistent-apps -array-add '{tile-type="spacer-tile";}')
 - <recent apps>
 -----------------
 Uncustomizable
