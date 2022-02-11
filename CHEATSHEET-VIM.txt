@@ -19,6 +19,7 @@ COMMAND MODE
 - :<v>split                     = viewport (open another window of same file), Ctrl + W then Q = close window
 - :w !sudo tee %                = save file by calling tee if you didn't start vi using sudo (this doesn't actually save via Vim and thus will give you a W12 warning and state file hasn't been written when attempting to quit; undoing all changes, quitting, and reopening the file after the command will show it has actually been changed)
 - :noh                          = no highlight
+- :set wrap/nowrap              = toggle cli text wrapping
 - .                             = repeat previous command (remember you can scroll up/down past commands/searches)
 -----------------
 - Shift + 3                     = search the current word backward (cursor starts at last occurence; N = backward; Shift + N = forward)
