@@ -1,0 +1,39 @@
+----------------------------------
+SETTINGS - MOUSE MAPPINGS
+----------------------------------
+
+Keys on left and right side of mouse can be flipped. The mappings below are intended for right-handers.
+Tab switching is present in more applications and therefore more frequently used than backward/forward.
+
+These mouse mappings aim to complement the cross-OS keyboard mappings (found in CHEATSHEET-SHORTCUTS.txt and SETTINGS-KEYBOARD-MAPPINGS.txt),
+as well as to perform the most common actions one may want to perform without touching the keybaord:
+- switching tabs to read,
+- changing windows to read,
+- navigating between pages,
+- & performing searches to begin/find new things to read.
+
+Lines with = :              signify the mapping is a default
+Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
+
+
+----------------------------------
+MACROS
+----------------------------------
+"5+ button" mouse
+- Left/Right Click              = defaults
+- Left Backward Key             > move left one tab                          (Ctrl + Shift + Tab  in most browsers)
+- Left Forward Key              > move right one tab                         (Ctrl + Tab          in most browsers)
+- Right Backward Key            = backward                                   (Alt/Command + Left  in most browsers, but this macro often does not need to be set manually)
+- Right Forward Key             = forward                                    (Alt/Command + Right in most browsers, but this macro often does not need to be set manually)
+- Wheel Click                   > Overview/Mission Control/View Applications (as indicated in CHEATSHEET-SHORTCUTS.txt; can be used to change workspaces)
+- Wheel Left                    = copy
+- Wheel Right                   = Enter                                      (this mapping allows you to copy using Wheel Left, click-paste, and Enter to perform searches)
+- DPI Up/Down                   > scroll left/right
+-----------------
+"5 button" mouse
+- Left/Right Click              = defaults
+- Backward Key                  = backward                                   (Alt/Command + Left  in most browsers, but this macro often does not need to be set manually)
+- Forward Key                   = forward                                    (Alt/Command + Right in most browsers, but this macro often does not need to be set manually)
+- Wheel Click                   > Overview/Mission Control/View Applications (as indicated in CHEATSHEET-SHORTCUTS.txt; can be used to change workspaces)
+- DPI Up/Down                   > scroll left/right
+-----------------

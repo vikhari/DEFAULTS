@@ -1,0 +1,54 @@
+----------------------------------
+CONFIG - MANUAL (DEBIAN)
+----------------------------------
+
+Install operating system, setting up the user, device name, and if desired selecting 3rd party software installations.
+Then install the apps from SETTINGS-APP-LIST-DEB.txt before proceeding to configure the apps via CONFIG-DEB-AUTO.sh script, or manually via procedure below.
+If desired, configure mouse via Piper to complement default/custom keyboard shortcuts (using mappings in SETTINGS-MOUSE-MAPPINGS.txt).
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+Tweaks
+- Keyboard & Mouse: Additional Layout Options > Caps Lock Behavior = "Caps Lock is also a Ctrl"
+- Top Bar:          Battery Percentage = On; Clock Seconds = On; Calendar Week Number = On
+- Workspaces:       Static Workspaces = On; Number of Workspaces = 2
+-----------------
+RCs
+- Bashrc:           uncomment "force_color_prompt=yes" and replace "\033[01;32m\" with "\033[01;31m\" in the file; then "source" it
+- Vimrc:            replace the file; then "source" it
+-----------------
+Terminator
+- Profiles:         General > Font = Ubuntu Mono Regular 18; Cursor Color = Red (selection box); Terminal bell = "Visual flash" (only); Colors > Built-in schemes = "Green on black"; Scrolling > Infinite Scrollback = On
+- Keybindings:      see SETTINGS-KEYBOARD-MAPPINGS.txt
+-----------------
+System
+- Background:       change to be different from other systems for coolness/easy recognition of displays
+- Appearance:       set to dark
+- Notifications:    Lock Screen Notifications = Off
+- Search:           only allow Calculator and Temrinal
+- Applications:     turn off notifications
+- Privacy:          File History = Off; Screen Lock > Blank Screen Delay = Never; Automatic Screen Lock Delay = 1 Hour; Show Notifications on Lock Screen = Off; Diagnostics > Send error reports to Canonical = Never
+- Power:            click on Automatic Suspend (even for desktop where option seems disabled) to set time limit to 1 Hour; change Power Button Action to suspend
+- Displays:         turn on Fractional Scaling if hardware is a laptop and not plugged into display (better system font sizing)
+- Keyboard Shortcuts: see mappings in SETTINGS-KEYBOARD-MAPPINGS.txt
+- Removable Media:  Never Prompt or Start Programs on Media Insertion = On; everything else set to "Do nothing"
+- Date & Time:      Time Format = 24-Hour
+- About:            change device name if not already done during initial install
+-----------------
+Chromium (primary browser)
+- Show bookmarks toolbar
+- Configure search engine shortcuts
+- Configure advanced settings (URL = "chrome://flags"): Hardware Media Key Handling = Disabled
+- Install Adblock and Bookolio extensions
+-----------------
+Firefox (secondary browser)
+- Show bookmarks toolbar
+- Configure search engine shortcuts
+- Configure advanced settings (URL = "about:config"): media.hardwaremediakeys.enabled = false
+- Install Adblock extension
+-----------------
+Dock
+- Pin apps to dock in order according to SETTINGS-APP-LIST-DEB.txt
+-----------------
