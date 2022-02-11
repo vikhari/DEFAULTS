@@ -56,6 +56,7 @@ Chrome/Chromium and Firefox (see modifier subsitutes at top of file for Osx)
 - Ctrl + 0                      = reset zoom
 - Ctrl + ClickLink              = open in new tab
 - Ctrl + Shift + T              = open last closed tab (retains history, allowing backtracking)
+- Ctrl + L                      = jump to omni/search/URL box
 - Ctrl + F                      = find (use Shift + Enter to reverse direction)
 - Ctrl + G                      = next occurrence of find search
 - Ctrl + Shift + G              = previous occurence of find search
