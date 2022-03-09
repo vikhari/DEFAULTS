@@ -12,6 +12,21 @@ as well as to perform the most common actions one may want to perform without to
 - navigating between pages,
 - & performing searches to begin/find new things to read.
 
+For example, this series of web browsing actions can be done without a keyboard:
+00 initial Google search (requires keyboard or voice)
+01 <RightClick> to open Wikipedia link in a new tab
+02 <MoveRightOneTab> to read
+03 browse pages via <LeftClick> and <Forwardward/Backward>
+04 find a keyword/URL to save for later
+05 highlight keyword/URL via <LeftClickAndHold>
+06 <Copy> (the copy macro was picked over paste to avoid accidental clipboard pasting)
+07 <Overview> to switch workspace and focus on Slack
+08 <LeftClick> in a direct message to self
+09 <RightClick> to paste
+10 <Enter> to send
+11 <Overview> to return to browser for more information gathering
+This may seem over-analytical but features and habits like this optimize workflow, just as typing speed can, and are useful for technical difficulty situations.
+
 Lines with = :              signify the mapping is a default
 Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
 
