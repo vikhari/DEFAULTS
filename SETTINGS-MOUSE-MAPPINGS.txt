@@ -25,7 +25,9 @@ For example, this series of web browsing actions can be done without a keyboard:
 09 <RightClick> to paste
 10 <Enter> to send
 11 <Overview> to return to browser for more information gathering
-This may seem over-analytical but features and habits like this optimize workflow, just as typing speed can, and are useful for technical difficulty situations.
+This may seem over-analytical but features and habits like this optimize workflow, just as typing speed can.
+They can also be useful for technical difficulty situations where keyboards run out of battery or don't work.
+The SETTINGS-KEYBOARD-MAPPINGS.txt is derived from a similar vein, one where a mouse is needed as little as possible.
 
 Lines with = :              signify the mapping is a default
 Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
