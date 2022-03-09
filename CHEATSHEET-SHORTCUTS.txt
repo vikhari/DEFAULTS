@@ -87,7 +87,7 @@ Microsoft OneNote
 - Ctrl + PageUp/Down            = switch up/down pages
 - Alt + Left/Right              = go backward/forward through changes in notebook/tab/page
 - Alt + Shift + Left/Right      = indent/unindent bullet
-- Ctrl + Shift + ,/.            j= decrease/increase text size
+- Ctrl + Shift + ,/.            = decrease/increase text size
 -----------------
 Microsoft Outlook
 - Ctrl + K                      = autocomplete email address using exchange global contact list or default contact list
