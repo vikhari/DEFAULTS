@@ -148,6 +148,31 @@ SSH
 
 
 ----------------------------------
+IDEs
+----------------------------------
+VSCode
+- Alt + Shift + LeftClick drag  = mouse column selection
+- Ctrl + `                      = switch to (or toggle) terminal
+- Ctrl + #                      = switch to editor # (use this along with the terminal toggle to switch between the two)
+- F5                            = start debugging
+- Ctrl + B                      = toggle sidebar (when using vim need override shortcut setting or will only work when focused on sidebar - see keybindings.json)
+- Ctrl + Shift + B              = select build task to run
+- Ctrl + /                      = comment in/out selected lines
+- Ctrl + Shift + F              = search
+- Ctrl + Shift + H              = replace
+- Ctrl + P                      = search for file
+- Ctrl + Shift + P              = command palate
+- Ctrl + Shift + N              = new window
+- Ctrl + W then Ctrl + Q        = close tab (file window)
+- Ctrl + Shift + T              = open last closed tab (file window)
+- Ctrl + RightClick on funcs    = go to defeintion (Forward/Backward via mouse skips between the two)
+- Ctrl + C                      = copy upon mouse highlight (vim normal mode) || use "+Y vim yank to clipboard buffer
+- RightClick/Ctrl + Shift + V   = paste (vim normal mode)
+- Ctrl + V                      = paste (vim insert mode; easy way to do this while right hand on mouse is to do 'a' or 'A' vim shortcut instead of 'i' for insert mode and then paste with Ctrl+V)
+-----------------
+
+
+----------------------------------
 OPERATING SYSTEM
 ----------------------------------
 Win
