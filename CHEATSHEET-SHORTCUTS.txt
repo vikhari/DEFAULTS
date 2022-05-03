@@ -183,4 +183,5 @@ Slack
 YouTube
 - Ctrl + J/L                    = backward/forward (left/right)
 - Ctrl + K                      = pause (space)
+- /                             = jump to search box
 -----------------
