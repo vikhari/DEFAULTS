@@ -165,3 +165,10 @@ Shortcuts
 - Command + Shift + Enter       = toggle fullscreen of active pane
 - Command + I                   = bring up Session settings (to switch profile etc.)
 -----------------
+
+
+----------------------------------
+GAMING - FIRST PERSON SHOOTER
+----------------------------------
+Coming soon...
+-----------------
