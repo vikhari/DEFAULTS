@@ -120,7 +120,7 @@ Bash
 - Ctrl + Y                      = yank back (paste) text from buffer
 - Ctrl + W                      = cut last word into buffer (behind cursor)
 - Alt + D                       = cut next word into buffer (from cursor forward)
-- Ctrl + R                      = search-command history (after entering query repeat keystroke to cycle through matches, then use Tab)
+- Ctrl + R                      = search-command history (after entering query repeat keystroke to cycle through matches, then use Tab, or Ctrl+G to exit)
 - Ctrl + Home/End               = beginning/end of current line being typed OR Ctrl+A=beginning, Ctrl+E=end
 - Shift + PageUp/Down           = PageUp/Down
 - Ctrl + Shift PageUp/Down      = one line up/down
