@@ -22,6 +22,7 @@ Taskbar/Menu
 - itsycal           (bigger calendar pulldown from Menu Bar than what is provided out of box by Osx)
 -----------------
 Other
+- Atom
 - Chrome            (with Bookolio and Adblock plugins)
 - Foxit Reader      (cross-platofrm PDF reader with customizable background color which eases screens on eyes)
 - Inkscape          (open-source Adobe Illustrator alternative for Osx)
@@ -30,10 +31,11 @@ Other
 - Microsoft Remote Desktop
 - Slack
 - Spotify
-- Sublime
+- Sublime Text
 - The Unarchiver    (compression tool supporting a plethora of formats)
 - Thunderbird       (allows for multiple email accounts to be used in one place, password-protected, and with any server authentication)
-- Zoom
+- VSCode
+- Zoom/Other
 -----------------
 
 
@@ -47,7 +49,7 @@ Defaults
 -----------------
 Essentials
 - Libre Office
-- Sublime
+- Atom/Sublime Text
 - Foxit Reader
 - Google Chrome
 -----------------
