@@ -18,7 +18,7 @@ UI Settings
 - Settings > Terminal > Integrated:CommandsToSkipShell > add "-workbench.action.quickOpen" (enables Ctrl + N/P command history shortcuts)
 - If on Windows: Settings > Vim > Vimrc:Path > set path to your .vimrc (place in C:\Users\username\AppData\Local\Programs\Microsoft VS Code\.vimrc)
 -----------------
-Linux Settings
+Ubuntu Settings
 - Place the TEMPLATE-VSCODE-SETTINGS    file in ~/.config/Code/User/settings.json
 - Place the TEMPLATE-VSCODE-KEYBINDINGS file in ~/.config/Code/User/keybindings.json (these 
 -----------------
