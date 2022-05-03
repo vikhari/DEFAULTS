@@ -16,6 +16,8 @@ Lines with = :              signify the mapping is a default
 Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
 Lines with X instead of =:  signify an equivalent mapping is not present for the operating system
 
+Dedicated media hardware keys or macros keys are useful because they don't change the focus of windows (see SETTINGS-KEYBOARD-MACROS.txt for ideas).
+
 
 ----------------------------------
 OSX MODIFIERS - KEYBOARD REMAPPING
