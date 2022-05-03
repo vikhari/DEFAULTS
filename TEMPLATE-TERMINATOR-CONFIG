@@ -1,0 +1,64 @@
+[global_config]
+  inactive_color_offset = 0.9090909090909091
+  suppress_multiple_term_dialog = True
+[keybindings]
+  zoom_in = <Primary><Shift>plus
+  zoom_out = <Primary><Shift>underscore
+  zoom_normal = None
+  new_tab = None
+  cycle_next = <Primary>Tab
+  cycle_prev = <Primary><Shift>Tab
+  go_next = None
+  go_prev = None
+  rotate_cw = None
+  rotate_ccw = None
+  close_term = None
+  toggle_scrollbar = None
+  search = <Primary><Shift>f
+  line_up = <Primary><Shift>Page_Up
+  line_down = <Primary><Shift>Page_Down
+  close_window = None
+  move_tab_right = None
+  move_tab_left = None
+  toggle_zoom = <Primary><Shift>Return
+  scaled_zoom = None
+  next_tab = None
+  prev_tab = None
+  reset = None
+  reset_clear = None
+  hide_window = None
+  group_all = None
+  group_all_toggle = None
+  ungroup_all = None
+  group_tab = None
+  ungroup_tab = None
+  new_window = None
+  new_terminator = None
+  broadcast_off = None
+  broadcast_group = None
+  broadcast_all = None
+  insert_number = None
+  insert_padded = None
+  edit_window_title = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  layout_launcher = None
+[profiles]
+  [[default]]
+    visible_bell = True
+    icon_bell = False
+    cursor_color = "#ef2929"
+    cursor_color_fg = False
+    font = Ubuntu Mono 20
+    foreground_color = "#00ff00"
+    scrollback_infinite = True
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
