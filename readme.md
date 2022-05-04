@@ -38,5 +38,5 @@ But in summary they aim to:
 - Have methods of doing the same actions via mouse or keyboard or single hand, avoiding neeidng to change positions
 - Help in odd circumstances (e.g. use keyboard shortcut to move a window over to laptop if monitor not working, or be able to browse via only mouse from couch)
 - Build skills that make a programmer versed in all core types of opeerating systems, environments, and applications
-- Keep the list mostly to the essentials, meaning they are actions that will be performed frequently and which can have the same hand placement cross-platform
-- Avoiding applicaiton bloat by having too many applications that do similar things
+- Keep the list mostly to the essentials, meaning they are actions that will be performed frequently
+- Avoiding application bloat by having too many applications that do similar things (high number of actions, low number of tools)
