@@ -1,0 +1,104 @@
+----------------------------------
+CONFIG - CHROME (MANUAL)
+----------------------------------
+
+Follow instructions below to setup Chrome and install the configs properly.
+
+TODO:
+This file will be replaced with Chromium eventually...for now this is here for the average non-computer-savvy person.
+Note: these currently have not been checked.
+
+Lines with = :              signify the mapping is a default
+Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+About
+- Autoupdate                                            = yes
+Custome Sync
+- Bookmarks, Settings, Theme                            > yes
+- Everything else                                       > no
+Security
+- Encrypt synced passwords with your Google username... = yes
+- Allow Chrome sing-in                                  = yes
+- Autocomplete searches and URLs                        = no
+- Help improve Chrome's features and performance        > no
+- Make searches and browsing better                     = yes
+- Enhanced spell check                                  > no
+Passwords
+- Offer to save passwords                               > no
+- Auto Sign-in                                          > no
+Payment
+- Save and fill payments methods                        > no
+- Allow sites to check if you have payment methods...   > no
+Addresses
+- Save and fill addresses                               > no
+Security
+- Standard protection                                   = yes
+- Help improve security on the web for everyone         > no
+- Warn you if password are exposed in a data breach     = yes
+- Use secure DNS                                        = yes
+Permissions
+- Location                                              > Don't allow
+- Camera                                                = Ask
+- Microphone                                            = Ask
+- Notifications                                         > Use quieter messaging
+- Background sync                                       = Recently closed sites can finish sending and receiving data
+- Motion sensor                                         > Don't allow
+- Automatic downloads                                   = Ask
+- Protocol handlers                                     = Ask
+- MIDI devices                                          = Ask
+- USB devices                                           > Ask
+- Serial ports                                          > Ask
+- File editing                                          > Ask
+- HID devices                                           > Ask
+- Clipboard                                             > Ask
+- Payment handlers                                      > Allow
+- Augmented reality                                     > Don't allow (turn on if you use it)
+- Virtual reality                                       > Don't allow (turn on if you use it)
+- Your device use                                       > Don't allow
+- Window placement                                      > Don't allow
+- Fonts                                                 = Ask
+Contents
+- Cookies
+  - Block third-party cookies in incognito              = yes
+  - Clear cookies and site data when you quit Chrome    = no (Ctrl + Shift + Delete/Backspace on OSX to clear cookies)
+  - Send a "Do Not Track" request with your...          > yes
+  - Preload pages for faster browsing and searching     = yes
+- Javascript                                            = yes (turn off if cautious, but realize some websites will not function properly)
+- Images                                                = Allow
+- Pop-ups and redirectos                                > Don't allow
+Appearance
+- Show home button                                      > yes
+- Show bookmarks bar                                    > yes (Ctrl + Shift + B = toggle hiding)
+- Pressing Tab on a webpage highlights links...         = yes
+- Show warning before quitting with shortcut            = yes
+Search Engine
+- Search engine used in the address bar                 = Google
+- Google                                                > goog (default)
+- Duck Duck Go                                          > ddgo (https://duckduckgo.com/?q=%s)
+- Ecosia                                                > ecos (https://www.ecosia.org/search?q=%s&addon=opensearch)
+- Amazon                                                > amaz (https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=%s)
+- Dictionary                                            > dict (https://dictionary.com.reference.com/browse/%s)
+- GitHub                                                > ghub (https://github.com/search?q=%s&ref=opensearch)
+- Goodreads                                             > book (https://www.goodreads.com/search?query=%s)
+- Google Maps                                           > maps (https://www.google.com/maps/search/%s?hl=en&source=opensearch)
+Startup
+- On startup                                            > Continue where you left off
+Language
+- Spell check                                           = yes (Basic spell check)
+Downloads
+- Location                                              > ~/Downloads/tmp
+- Ask where to save each file before downloading        > yes
+Accessibility
+- None selected
+Hardware
+- Use hardware acceleration when available              > yes
+Extensions
+- AdBlock
+- Bookolio
+- Pinterest
+- Pocket
+-----------------
