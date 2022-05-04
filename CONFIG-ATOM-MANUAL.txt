@@ -18,7 +18,7 @@ Vim Custom Shortcut
 - Add the following to ~/.atom/packages/vim-mode-plus/keymaps/vim-mode-plus.cson (under 'atom-text-editor.vim-mode-plus.insert-mode:'):
 'j j': 'vim-mode-plus:reset-normal-mode'
 -----------------
-Ubuntu Settings
+Template Files
 - Place the TEMPLATE-ATOM-CONFIG file in ~/.atom/config.cson
 - Place the TEMPLATE-ATOM-KEYMAP file in ~/.atom/keymap.cson
 -----------------
