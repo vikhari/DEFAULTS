@@ -1,0 +1,77 @@
+----------------------------------
+CONFIG - WSL (MANUAL)
+----------------------------------
+
+Follow instructions below to setup WSL Ubuntu 20.04 on Windows 10 and configure settings to your liking.
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+Startup
+- Default profile: Ubuntu WSL
+- Launch on machine startup: False
+- Launch mode: default
+- New instance behavior: Create a new window
+- Launch size:  Columns120, Rows 30
+Interactions
+- Automatically copy selection to cilpboard: off
+- Text format when copying: plain text only
+- Remove trailing white-space in rectangular selection: off
+- Word delimiters: defaults
+- Snap window resizing to character grid: On
+- Tab switcher interface style: Separate window, in tab strip order
+- Automatically focus pane on mouse hover: Off
+- Automatically detect URLs and make them clickable: On
+Appearance
+- Language: Use system default
+- Theme: Dark
+- Always show tabs: On
+- Hide the title bar: On
+- Show acrylic in tab row: Off
+- Use active terminal title as application title: On
+- Always on top: Off
+- Tab width mode: Equal
+- Pane animations: On
+Color Schemes
+- Campbell
+- Foreground: Green
+- Background: Black
+- Cursor color: Red
+- Selection background: White
+Rendering
+- Redraw entire screen when display updates: Off
+- Use software rendering: Off
+Actions
+- Use defaults
+-----------------
+General (Ubuntu 20.04 Settings
+- Name: Ubuntu-20.04
+- Command line: wsl.exe -d Ubuntu-20.04
+- Starting directory: %USERPROFILE% (uncheck 'use parent process directory')
+- Location of Windows within WSL is: /mnt/c/Users/Swiz
+- Icon: default
+- Tab title: empty
+- Hide profile from dropdown: Off
+Appearance
+- Color scheme: Campbell
+- Font face: Cascadia Mono
+- Front: 14
+- Font weight: Normal
+- Retro terminal effects: Off
+- Cursor: Filled box
+- Backround image: empty
+- Text formatting Intense text style: Bright colors
+- Transparency: 100%
+- Acrylic: Off
+- Window: Padding=8
+- Scrollbar visibility: Visible
+Advanced
+- Surpress title changes: Off
+- Text antialiasing: Grayscale
+- AltGr aliasing: On
+- Scroll to input when typing: On
+- History size: 9001
+- Profile termination behavior: Close only when process exists successfully.
+- Bell notification style: Flash window
+-----------------
