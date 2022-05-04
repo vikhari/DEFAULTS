@@ -148,8 +148,12 @@ SSH
 
 
 ----------------------------------
-IDEs
+EDITORS AND IDEs
 ----------------------------------
+Atom
+- Ctrl + K > Arrow              = splits window (right clicking in open file displays these options)
+- Ctrl + Shift + T              = open last closed file
+-----------------
 VSCode
 - Alt + Shift + LeftClick drag  = mouse column selection
 - Ctrl + `                      = switch to (or toggle) terminal
