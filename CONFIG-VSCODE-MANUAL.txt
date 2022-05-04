@@ -18,9 +18,9 @@ UI Settings
 - Settings > Terminal > Integrated:CommandsToSkipShell > add "-workbench.action.quickOpen" (enables Ctrl + N/P command history shortcuts)
 - If on Windows: Settings > Vim > Vimrc:Path > set path to your .vimrc (place in C:\Users\username\AppData\Local\Programs\Microsoft VS Code\.vimrc)
 -----------------
-Ubuntu Settings
-- Place the TEMPLATE-VSCODE-SETTINGS    file in ~/.config/Code/User/settings.json
-- Place the TEMPLATE-VSCODE-KEYBINDINGS file in ~/.config/Code/User/keybindings.json (these 
+Template Files
+- Place the TEMPLATE-VSCODE-SETTINGS    file in ~/.config/Code/User/settings.json (or C:\Users\username\AppData\Roaming\Code\User\settings.json)
+- Place the TEMPLATE-VSCODE-KEYBINDINGS file in ~/.config/Code/User/keybindings.json (these are required with vim to override captured shortcuts)
 -----------------
 Workspace Setup
 - Restart app after above steps
