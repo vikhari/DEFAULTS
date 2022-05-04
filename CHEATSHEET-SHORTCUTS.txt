@@ -148,7 +148,7 @@ SSH
 
 
 ----------------------------------
-EDITORS AND IDEs
+EDITORS AND IDES
 ----------------------------------
 Atom
 - Ctrl + K > Arrow              = splits window (right clicking in open file displays these options)
