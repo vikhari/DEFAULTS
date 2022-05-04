@@ -1,0 +1,24 @@
+----------------------------------
+CONFIG - VIRTUALENVS (MANUAL)
+----------------------------------
+
+This file indicates how to customize the bash shell for a desired Python virtual environment.
+
+
+----------------------------------
+CUSTOMIZE ENV PROMPT
+----------------------------------
+Postactivate file
+#!/bin/bash
+# This hook is sourced after every virtualenv is activated.
+if [[ -n "$VIRTUAL_ENV" ]] ; then
+    PS1="\[\e[;;1;37m\](`basename \"$VIRTUAL_ENV\"`)\[\e[0m\]$_OLD_VIRTUAL_PS1"
+else
+    venv=''
+fi
+-----------------
+Postdeactivate file
+#!/bin/bash
+# This hook is sourced after every virtualenv is deactivated.
+source ~/.bashrc
+-----------------
