@@ -29,6 +29,7 @@ Other
 - Vim Diff
 - Vim Gtk3
 - VSCode
+- WX Hex Editor
 -----------------
 
 
