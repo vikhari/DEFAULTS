@@ -1,2 +1,0 @@
-gitk, meld/vimdiff, wxhexeditor, vbindiff, etc.
-firefox on deb: ui.key.menuAccessKeyFocuses=false
