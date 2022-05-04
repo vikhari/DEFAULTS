@@ -30,7 +30,7 @@ As you make progress through these stages of learning follow the CONFIG- files f
 
 ---
 
-### Bare necessities - forget about your worries & your strife!
+### Bare necessities - forget about your worries and your strife!
 
 The philosophy behind this approach is outlined in detail in the `SETTINGS-KEYBOARD-MAPPINGS.txt` and `SETTINGS-MOUSE-MAPPINGS.txt` files.  
 But in summary they aim to:
