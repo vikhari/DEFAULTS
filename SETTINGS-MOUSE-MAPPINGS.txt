@@ -2,6 +2,9 @@
 SETTINGS - MOUSE MAPPINGS
 ----------------------------------
 
+User Piper (frontend for libratbag) on Linux if wanting to store macros via on-board memory easily without buggy and limiting software (LG Hub/Razer Synapse).
+This is advisable for cross-OS usage, as all of the macros below will work with applicaitons and OS, except the Wheel Click (and browser tab switching on OSX).
+
 Keys on left and right side of mouse can be flipped. The mappings below are intended for right-handers.
 Tab switching is present in more applications and therefore more frequently used than backward/forward.
 
