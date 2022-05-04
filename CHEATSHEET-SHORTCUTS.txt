@@ -4,6 +4,7 @@ CHEATSHEET - SHORTCUTS
 
 Command/Ctrl and Alt/Opt may be interchanbeable.
 As noted in SETTINGS-MOUSE-MAPPINGS.txt the tab switching mappings are common and may work in a variety of applications (try it out to test if supported).
+Besides below, here is a cool link too: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
 
 
 ----------------------------------
