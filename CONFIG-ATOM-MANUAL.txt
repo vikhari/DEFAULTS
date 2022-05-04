@@ -19,8 +19,8 @@ Vim Custom Shortcut
 'j j': 'vim-mode-plus:reset-normal-mode'
 -----------------
 Template Files
-- Place the TEMPLATE-ATOM-CONFIG file in ~/.atom/config.cson
-- Place the TEMPLATE-ATOM-KEYMAP file in ~/.atom/keymap.cson
+- Place the TEMPLATE-ATOM-CONFIG file in ~/.atom/config.cson (or C:\Users\username\.atom\config.cson)
+- Place the TEMPLATE-ATOM-KEYMAP file in ~/.atom/keymap.cson (or C:\Users\username\.atom\keymap.cson)
 -----------------
 Workspace Setup
 - Restart app after after above steps
