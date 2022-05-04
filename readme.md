@@ -34,7 +34,7 @@ As you make progress through these stages of learning follow the CONFIG- files f
 
 The philosophy behind this approach is outlined in detail in the `SETTINGS-KEYBOARD-MAPPINGS.txt` and `SETTINGS-MOUSE-MAPPINGS.txt` files.  
 But in summary they aim to:
-- "Stay at home" (the Vim philosophy is to leave the "home row" of the keyboard as little as necessary)
+- Stay at home (the Vim philosophy that minimizes leaving the "home row" of the keyboard as little as possible)
 - Have methods of doing the same actions via mouse or keyboard or single hand, avoiding neeidng to change positions
 - Keep the list mostly to the essentials, meaning they are actions that will be performed frequently
 - Avoiding application bloat by having too many applications that do similar things (high number of actions, low number of tools)
