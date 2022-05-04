@@ -1,0 +1,28 @@
+----------------------------------
+CONFIG - ATOM (MANUAL)
+----------------------------------
+
+Follow instructions below to setup Atom and install the configs properly.
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+Install Extensions
+- Settings > Install > search "vim-mode" > install Vim-Mode-Plus (or simply do "apm install vim-mode-plus")
+-----------------
+UI Settings
+- Set One Dark theme and syntax
+-----------------
+Vim Custom Shortcut
+- Add the following to ~/.atom/packages/vim-mode-plus/keymaps/vim-mode-plus.cson (under 'atom-text-editor.vim-mode-plus.insert-mode:'):
+'j j': 'vim-mode-plus:reset-normal-mode'
+-----------------
+Ubuntu Settings
+- Place the TEMPLATE-ATOM-CONFIG file in ~/.atom/config.cson
+- Place the TEMPLATE-ATOM-KEYMAP file in ~/.atom/keymap.cson
+-----------------
+Workspace Setup
+- Restart app after after above steps
+- Open desktop folder (wihtout this restoring previous windows will not work)
+-----------------
