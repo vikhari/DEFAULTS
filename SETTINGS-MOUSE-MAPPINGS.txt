@@ -11,7 +11,7 @@ as well as to perform the most common actions one may want to perform without to
 - changing windows to read,
 - navigating between pages,
 - & performing searches to begin/find new things to read.
-Tasks like copy-pasting-running terminal commands becomes a breeze without needing to change hand placement.
+Tasks like copy-pasting-running commands and togling between Terminator tabs becomes a breeze without needing to change hand placement(s).
 
 For example, this series of web browsing actions can be done without a keyboard:
 00 initial Google search (requires keyboard or voice)
