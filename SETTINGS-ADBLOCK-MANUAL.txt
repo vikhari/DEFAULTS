@@ -1,5 +1,5 @@
 ----------------------------------
-CONFIG - ADBLOCK (MANUAL)
+SETTINGS - ADBLOCK (MANUAL)
 ----------------------------------
 
 Follow instructions below to setup useful AdBlock (not AdBlock Plus) web browser extension lists to avoid annoying, tracking, and confusing web elements.
