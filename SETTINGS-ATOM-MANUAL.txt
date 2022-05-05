@@ -1,5 +1,5 @@
 ----------------------------------
-CONFIG - ATOM (MANUAL)
+SETTINGS - ATOM (MANUAL)
 ----------------------------------
 
 Follow instructions below to setup Atom and install the configs properly.
