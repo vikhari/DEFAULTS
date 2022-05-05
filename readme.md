@@ -27,7 +27,7 @@ This is the approximate ideal order to learn shortcuts and build fmailiarity, fr
   - Shells & Useful Commands/Packages (Debian is easiest first)   (CHEATSHEET-SHORTCUTS.txt & APP-LIST-DEB.txt)
   - Editors And IDEs                                              (CHEATSHEET-SHORTCUTS.txt)
 ```
-As you make progress through these stages of learning follow the CONFIG- files for instructions on how to set up the apps and integrate things like Vim.
+As you make progress through these stages of learning follow the `SETTINGS-` files for instructions on how to set up the apps and integrate things like Vim.
 
 ---
 
