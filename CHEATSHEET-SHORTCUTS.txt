@@ -111,18 +111,18 @@ Sublime
 SHELLS
 ----------------------------------
 Bash
-- Ctrl + F/B                    = forward/back
-- Alt + F/B                     = forward/back one word
-- Ctrl + N/P                    = down/up
+- Ctrl + F/B                    = forward/back (works in Vim to page down/up)
+- Alt + F/B                     = forward/back one word (works in Vim)
+- Ctrl + N/P                    = down/up (works in Vim to scroll through ctags/other autocompletion options)
 - Ctrl + A                      = beginning of line
 - Ctrl + E                      = end of line
-- Ctrl + H                      = delete (also Ctrl + 8)
+- Ctrl + H                      = delete (also Ctrl + 8; works in Vim's Insert Mode)
 - Ctrl + U                      = cut text into buffer from cursor to beginning of line
 - Ctrl + K                      = cut text into buffer from cursor to end of line
-- Ctrl + Y                      = yank back (paste) text from buffer
-- Ctrl + W                      = cut last word into buffer (behind cursor)
-- Alt + D                       = cut next word into buffer (from cursor forward)
-- Ctrl + R                      = search-command history (after entering query repeat keystroke to cycle through matches, then use Tab, or Ctrl+G to exit)
+- Ctrl + Y                      = yank back (paste) text from buffer (works in Vim)
+- Ctrl + W                      = cut last word into buffer (behind cursor; works in Vim)
+- Alt + D                       = cut next word into buffer (from cursor forward; works in Vim)
+- Ctrl + R                      = search-command history (repeat keystroke to cycle through matches, then use Tab, or Ctrl+G to exit)
 - Ctrl + Home/End               = beginning/end of current line being typed OR Ctrl+A=beginning, Ctrl+E=end
 - Shift + PageUp/Down           = PageUp/Down
 - Ctrl + Shift PageUp/Down      = one line up/down
@@ -162,8 +162,10 @@ VSCode
 - Ctrl + #                      = switch to editor # (use this along with the terminal toggle to switch between the two)
 - F5                            = start debugging
 - Ctrl + B                      = toggle sidebar (when using vim need override shortcut setting or will only work when focused on sidebar - see keybindings.json)
-- Ctrl + Shift + B              = select build task to run
+- Ctrl + RightClick on funcs    = go to defintion (Forward/Backward via mouse skips between the two; if Vim is installed G + D will do the same)
+- Ctrl + Space                  = IntelliSense autocomplete suggestions (with Vim installed Ctrl + N/P scrolls up/down through options like in ctags)
 - Ctrl + /                      = comment in/out selected lines
+- Ctrl + Shift + A              = comment in/out a block
 - Ctrl + Shift + F              = search
 - Ctrl + Shift + H              = replace
 - Ctrl + P                      = search for file
@@ -171,10 +173,10 @@ VSCode
 - Ctrl + Shift + N              = new window
 - Ctrl + W then Ctrl + Q        = close tab (file window)
 - Ctrl + Shift + T              = open last closed tab (file window)
-- Ctrl + RightClick on funcs    = go to defeintion (Forward/Backward via mouse skips between the two)
 - Ctrl + C                      = copy upon mouse highlight (vim normal mode) || use "+Y vim yank to clipboard buffer
 - RightClick/Ctrl + Shift + V   = paste (vim normal mode)
 - Ctrl + V                      = paste (vim insert mode; easy way to do this while right hand on mouse is to do 'a' or 'A' vim shortcut instead of 'i' for insert mode and then paste with Ctrl+V)
+- Ctrl + Shift + B              = select build task to run
 -----------------
 
 
