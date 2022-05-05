@@ -1,5 +1,5 @@
 ----------------------------------
-SETTINGS - MOUSE MAPPINGS
+HARDWARE - MOUSE MAPPINGS
 ----------------------------------
 
 User Piper (frontend for libratbag) on Linux if wanting to store macros via on-board memory easily without buggy and limiting software (LG Hub/Razer Synapse).
