@@ -16,7 +16,7 @@ Lines with = :              signify the mapping is a default
 Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
 Lines with X instead of =:  signify an equivalent mapping is not present for the operating system
 
-Dedicated media hardware keys or macros keys are useful because they don't change the focus of windows (see SETTINGS-KEYBOARD-MACROS.txt for ideas).
+Dedicated media hardware keys or macros keys are useful because they don't change the focus of windows (see HARDWARE-KEYBOARD-MACROS.txt for ideas).
 
 
 ----------------------------------
@@ -139,7 +139,7 @@ Deb
 - Ctrl + Shift + O              = split horizontal
 - Ctrl + Shift + E              = split vertical
 - Ctrl + Shfit + F              = search
-- Ctrl + Shift + Enter          = toggle_zoom (toggle maximizing current terminal; can be used with Wheel Right as indicated in SETTINGS-MOUSE-MAPPINGS.txt)
+- Ctrl + Shift + Enter          = toggle_zoom (toggle maximizing current terminal; can be used with Wheel Right as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
 - Ctrl + Shift + Arrow          > resize_up/down/left/right
 - Ctrl + Shift + (+)            = zoom_in
 - Ctrl + Shift + (-)            = zoom_out
