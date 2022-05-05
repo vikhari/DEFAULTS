@@ -55,3 +55,17 @@ Desktop/Workspace 2
 - Laptop
   - Atom/Sublime Text
 -----------------
+
+
+----------------------------------
+OTHER USEFUL DEB PACKAGES/NOTES
+----------------------------------
+Packages
+- find
+- whereis
+- grep
+- locate
+- whohas
+Notes
+- visudo line:username ALL=(ALL:ALL) ALL OR %group ALL=(ALL:ALL) ALL
+-----------------
