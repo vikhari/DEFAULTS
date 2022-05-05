@@ -8,7 +8,7 @@ This is advisable for cross-OS usage, as all of the macros below will work with 
 Keys on left and right side of mouse can be flipped. The mappings below are intended for right-handers.
 Tab switching is present in more applications and therefore more frequently used than backward/forward.
 
-These mouse mappings aim to complement the cross-OS keyboard mappings (found in CHEATSHEET-SHORTCUTS.txt and SETTINGS-KEYBOARD-MAPPINGS.txt),
+These mouse mappings aim to complement the cross-OS keyboard mappings (found in CHEATSHEET-SHORTCUTS.txt and HARDWARE-KEYBOARD-MAPPINGS.txt),
 as well as to perform the most common actions one may want to perform without touching the keybaord:
 - switching tabs to read,
 - changing windows to read,
@@ -31,7 +31,7 @@ For example, this series of web browsing actions can be done without a keyboard:
 11 <Overview> to return to browser for more information gathering
 This may seem over-analytical but features and habits like this optimize workflow, just as typing speed can.
 They can also be useful for technical difficulty situations where keyboards run out of battery or don't work.
-The SETTINGS-KEYBOARD-MAPPINGS.txt is derived from a similar vein, one where a mouse is needed as little as possible.
+The HARDWARE-KEYBOARD-MAPPINGS.txt is derived from a similar vein, one where a mouse is needed as little as possible.
 
 Lines with = :              signify the mapping is a default
 Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
