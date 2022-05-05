@@ -1,5 +1,5 @@
 ----------------------------------
-SETTINGS - KEYBOARD MACROS
+HARDWARE - KEYBOARD MACROS
 ----------------------------------
 
 This is a set of custom mappings for the Kinesis Freestyle Edge RGB keyboard.
