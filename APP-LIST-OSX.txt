@@ -1,5 +1,5 @@
 ----------------------------------
-SETTINGS - APP LIST (OSX)
+APPS AND LAYOUT (OSX)
 ----------------------------------
 
 This list provides essential applications for navigation and carrying out tasks.
@@ -40,7 +40,7 @@ Other
 
 
 ----------------------------------
-DOCK ORDER (LEFT TO RIGHT)
+LAYOUT - DOCK (LEFT TO RIGHT)
 ----------------------------------
 Defaults
 - Finder
