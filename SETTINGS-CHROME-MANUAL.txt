@@ -1,5 +1,5 @@
 ----------------------------------
-CONFIG - CHROME (MANUAL)
+SETTINGS - CHROME (MANUAL)
 ----------------------------------
 
 Follow instructions below to setup Chrome (or Chromium) and install the configs properly.
