@@ -4,7 +4,7 @@ APPS AND LAYOUT (OSX)
 
 This list provides essential applications for navigation and carrying out tasks.
 Dock has the ideology of grouping similar types of apps together.
-However, some core applications are hidden as they are brought up via keyboard shortcuts (see SETTINGS-KEYBOARD-MAPPINGS.txt).
+However, some core applications are hidden as they are brought up via keyboard shortcuts (see HARDWARE-KEYBOARD-MAPPINGS.txt).
 
 
 ----------------------------------
@@ -14,7 +14,7 @@ Navigation
 - Better Touch Tool (supports Touch Bar customization on Macbook Pro; necessary to have normal mouse scrolling while using natural scrolling on trackpad)
 - Hyper Dock        (useful for window snapping)
 - Logitech G Hub    (supports mouse macros)
-- Smartset          (Kinesis split ergonomic keyboard tool; macros: see SETTINGS-KEYBOARD-MACROS.txt)
+- Smartset          (Kinesis split ergonomic keyboard tool; macros: see HARDWARE-KEYBOARD-MACROS.txt)
 -----------------
 Taskbar/Menu
 - Bartender         (Menu Bar customization allowing for at-a-glance performance stats and hiding always-open background services like BTT)
