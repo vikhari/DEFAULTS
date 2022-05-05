@@ -1,5 +1,5 @@
 ----------------------------------
-CONFIG - VSCODE (MANUAL)
+SETTINGS - VSCODE (MANUAL)
 ----------------------------------
 
 Follow instructions below to setup VSCode and install the configs properly.
