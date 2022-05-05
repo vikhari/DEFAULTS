@@ -1,5 +1,5 @@
 ----------------------------------
-SETTINGS - KEYBOARD MAPPINGS
+HARDWARE - KEYBOARD MAPPINGS
 ----------------------------------
 
 The purpose of this file is to:
