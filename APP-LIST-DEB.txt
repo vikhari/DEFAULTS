@@ -1,5 +1,5 @@
 ----------------------------------
-SETTINGS - APP LIST (DEBIAN)
+APPS AND LAYOUT (DEB)
 ----------------------------------
 
 This list provides essential applications for navigation and carrying out tasks.
@@ -34,7 +34,7 @@ Other
 
 
 ----------------------------------
-DOCK AND MONITOR LAYOUT
+LAYOUT - DOCK (LEFT TO RIGHT)
 ----------------------------------
 Desktop/Workspace 1
 - Left Monitor
