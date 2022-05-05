@@ -1,5 +1,5 @@
 ----------------------------------
-CONFIG - VIRTUALENVS (MANUAL)
+SETTINGS - VIRTUALENVS (MANUAL)
 ----------------------------------
 
 This file indicates how to customize the bash shell for a desired Python virtual environment.
