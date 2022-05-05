@@ -37,7 +37,7 @@ COMMAND MODE
 - E                             = forward to end of word (hold to skip)
 - G                             = end line of file
 - GG                            = top line of file
-- GD                            = goto definition (in same file)
+- GD                            = goto definition (in same file; when used with VSCode or another IDE it will jump to other files)
 - <#> + Shift + G               = jump to line #
 - ' + '                         = return to line where cursor was before last jump
 - Shift + G                     = bottom line of file
