@@ -15,7 +15,6 @@ CONFIGURE
 You and Google
 - Encrypt synced passwords with your Google username... = yes
 - Allow Chrome sing-in                                  = no (turn this on if you don't care about being tracked and want syncing across devices)
-  - If signed in sync recommendations                   > no to all syncing except theme, bookmarks, and settings 
 - Autocomplete searches and URLs                        = no
 - Help improve Chrome's features and performance        > no
 - Make searches and browsing better                     = yes
@@ -111,7 +110,7 @@ System
 About
 - Autoupdate                                            = yes
 Custome Sync
-- Bookmarks, Settings, Theme                            > yes
+- Bookmarks, Settings, Theme                            > yes (if paranoid also deny Bookmarks for privacy/security reasons)
 - Everything else                                       > no
 -----------------
 Extensions
