@@ -4,7 +4,7 @@ APPS AND LAYOUT (DEB)
 
 This list provides essential applications for navigation and carrying out tasks.
 The dock layout has the ideology of best workflow across monitors for drag-drop and allows for mouse launch,
-even though some core applications use shorcuts (see SETTINGS-KEYBOARD-MAPPINGS.txt).
+even though some core applications use shorcuts (see HARDWARE-KEYBOARD-MAPPINGS.txt).
 
 
 ----------------------------------
