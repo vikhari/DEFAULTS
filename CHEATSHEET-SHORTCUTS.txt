@@ -3,7 +3,7 @@ CHEATSHEET - SHORTCUTS
 ----------------------------------
 
 Command/Ctrl and Alt/Opt may be interchanbeable.
-As noted in SETTINGS-MOUSE-MAPPINGS.txt the tab switching mappings are common and may work in a variety of applications (try it out to test if supported).
+As noted in HARDWARE-MOUSE-MAPPINGS.txt the tab switching mappings are common and may work in a variety of applications (try it out to test if supported).
 Besides below, here is a cool link too: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
 
 
@@ -11,10 +11,10 @@ Besides below, here is a cool link too: https://en.wikipedia.org/wiki/Table_of_k
 TEXT
 ----------------------------------
 All
-- Ctrl/Command + C              = copy (map to Wheel Left as indicated in SETTINGS-MOUSE-MAPPINGS.txt)
+- Ctrl/Command + C              = copy (map to Wheel Left as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
 - Ctrl/Command + X              = cut
 - Ctrl/Command + V              = paste
-- Enter                         = add new lines/execute commands/perform search (map to Wheel Right as indicated in SETTINGS-MOUSE-MAPPINGS.txt)
+- Enter                         = add new lines/execute commands/perform search (map to Wheel Right as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
 -----------------
 Win & Deb
 - Backspace                     = delete backward
@@ -45,9 +45,9 @@ BROWSERS
 ----------------------------------
 All
 - Ctrl + PageUp/Down            = next/previous tab in some file/web browsers (an alternative/duplicate to the mapping below, on Win/Deb)
-- Ctrl + (Shift) + Tab          = next/previous tab in most file/web browsers (map to thumb mouse buttons as indicated in SETTINGS-MOUSE-MAPPINGS.txt)
+- Ctrl + (Shift) + Tab          = next/previous tab in most file/web browsers (map to thumb mouse buttons as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
 - Command + Opt + Left/Right    = next/previous tab in most file/web browsers (an alternative/duplicate to the mapping above, on Osx)
-- Alt/Command + Left/Right      = backward/foward in file/web browsers except Finder on Osx (map to pinky buttons as indicated in SETTINGS-MOUSE-MAPPINGS.txt)
+- Alt/Command + Left/Right      = backward/foward in file/web browsers except Finder on Osx (map to pinky buttons as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
 - Command/Ctrl + W              = close current tab/window
 - Command/Alt + Up/Down         = navigate up a directory or into currently selected directory
 -----------------
