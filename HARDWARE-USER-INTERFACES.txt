@@ -1,5 +1,5 @@
 ----------------------------------
-SETTINGS - USER INTERFACE
+HARDWARE - USER INTERFACE
 ----------------------------------
 
 The philosophy of these gestures is easy navigation, 1-gesture-1-action, accidental gesturing, and disable less useful or frequently used gestures.
