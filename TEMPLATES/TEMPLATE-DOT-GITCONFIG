@@ -1,0 +1,6 @@
+[user]
+	name = Vik Hari
+	email = "email-goes-here"
+
+[includeIf "gitdir:~/Downloads/some-second-git-repo/"]
+    path = "~/Downloads/some-second-git-repo/.gitconfig"

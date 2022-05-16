@@ -1,0 +1,220 @@
+----------------------------------
+CHEATSHEET - SHORTCUTS
+----------------------------------
+
+Command/Ctrl and Alt/Opt may be interchanbeable.
+As noted in HARDWARE-MOUSE-MAPPINGS.txt the tab switching mappings are common and may work in a variety of applications (try it out to test if supported).
+Besides below, here is a cool link too: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
+
+
+----------------------------------
+TEXT
+----------------------------------
+All
+- Ctrl/Command + C              = copy (map to Wheel Left as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
+- Ctrl/Command + X              = cut
+- Ctrl/Command + V              = paste
+- Enter                         = add new lines/execute commands/perform search (map to Wheel Right as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
+-----------------
+Win & Deb
+- Backspace                     = delete backward
+- Del (Delete)                  = delete forward
+- Ctrl + Backspace              = delete word backward
+- Ctrl + Del                    = delete word forward
+- Ctrl + Left/Right             = move cursor backward/forward a word
+- Ctrl + Shift + Left/Right     = highlight word
+- Home/End + Shift + Left/Right = highlight entire line
+- Home/End                      = top/bottom page (Apple keybaords don't have this key; Home/End for Win/Nix keyboard)
+- PageUp/Down                   = page up/down (Apple keybaords don't have this key; PageUp/PageDown for Win/Nix keyboard)
+-----------------
+Apple Keyboard
+- Del (Delete)                  = delete backward (Apple keyboards name Backspace-functional key 'Delete'; thus, Function/Fn is necessary; see next line)
+- Function/Fn + Del             = delete forward
+- Opt + Del                     = delete word backward
+- Function/Fn + Opt + Del       = delete word forward
+- Opt + Left/Right              = move cursor backward/forward a word
+- Opt + Shit + Left/Right       = highlight word
+- Command + Shift + Left/Right  = highlight entire line
+- Command + Up/Down             = top/bottom page (Apple keybaords don't have this key; Home/End for Win/Nix keyboard)
+- Opt + Up/Down                 = page up/down (Apple keybaords don't have this key; PageUp/PageDown for Win/Nix keyboard)
+-----------------
+
+
+----------------------------------
+BROWSERS
+----------------------------------
+All
+- Ctrl + PageUp/Down            = next/previous tab in some file/web browsers (an alternative/duplicate to the mapping below, on Win/Deb)
+- Ctrl + (Shift) + Tab          = next/previous tab in most file/web browsers (map to thumb mouse buttons as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
+- Command + Opt + Left/Right    = next/previous tab in most file/web browsers (an alternative/duplicate to the mapping above, on Osx)
+- Alt/Command + Left/Right      = backward/foward in file/web browsers except Finder on Osx (map to pinky buttons as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
+- Command/Ctrl + W              = close current tab/window
+- Command/Alt + Up/Down         = navigate up a directory or into currently selected directory
+-----------------
+Chrome/Chromium and Firefox (see modifier subsitutes at top of file for Osx)
+- Alt + Home                    = home page
+- Ctrl + Scroll                 = zoom
+- Ctrl + 0                      = reset zoom
+- Ctrl + ClickLink              = open in new tab
+- Ctrl + Shift + T              = open last closed tab (retains history, allowing backtracking)
+- Ctrl + Shift + B              = toggle showing bookmarks bar
+- Ctrl + L                      = jump to omni/search/URL box
+- Ctrl + F                      = find (use Shift + Enter to reverse direction)
+- Ctrl + G                      = next occurrence of find search
+- Ctrl + Shift + G              = previous occurence of find search
+- Shift + Del                   = delete suggestion from omni bar
+- Ctrl + Shift + Del            = clear browsing data
+-----------------
+Explorer (Windows)
+- F11                           = toggle fullscreen
+- Windows + E                   = open Explorer
+-----------------
+Finder (Osx)
+- Command + Shift + .           = show/hide hidden files and folders
+- Command + Shift + H           = Home
+- Command + Shift + C           = Computer
+- Command + Shift + A           = Applications
+-----------------
+
+
+----------------------------------
+OFFICE
+----------------------------------
+Foxit Reader
+- Ctrl + 0                      = fit page (zoom)
+- Ctrl + 3                      = fit visible (zoom)
+-----------------
+Microsoft OneNote
+- (Shift +) Ctrl + Tab          = tab (left)right through tabs
+- Ctrl + PageUp/Down            = switch up/down pages
+- Alt + Left/Right              = go backward/forward through changes in notebook/tab/page
+- Alt + Shift + Left/Right      = indent/unindent bullet
+- Ctrl + Shift + ,/.            = decrease/increase text size
+-----------------
+Microsoft Outlook
+- Ctrl + K                      = autocomplete email address using exchange global contact list or default contact list
+- Ctrl + R                      = reply to focused message
+-----------------
+Microsoft Word
+- Alt + Shift + Left/Right      = change style left/right (if not a bullet; shown in menu at top) (else (de)indents bullet)
+- Ctrl + (Shift) + M            = indent (unindent) bullet
+- Ctrl + Shift + ,/.            = decrease/increase text size
+- Ctrl + +/=                    = super/subscript
+-----------------
+Sublime
+- Ctrl + PageUp/PageDown        = switch tabs left/right
+- Shift + Right_Mouse           = select column
+-----------------
+
+
+----------------------------------
+SHELLS
+----------------------------------
+Bash
+- Ctrl + F/B                    = forward/back (works in Vim to page down/up)
+- Alt + F/B                     = forward/back one word (works in Vim)
+- Ctrl + N/P                    = down/up (works in Vim to scroll through ctags/other autocompletion options)
+- Ctrl + A                      = beginning of line
+- Ctrl + E                      = end of line
+- Ctrl + H                      = delete (also Ctrl + 8; works in Vim's Insert Mode)
+- Ctrl + U                      = cut text into buffer from cursor to beginning of line
+- Ctrl + K                      = cut text into buffer from cursor to end of line
+- Ctrl + Y                      = yank back (paste) text from buffer (works in Vim)
+- Ctrl + W                      = cut last word into buffer (behind cursor; works in Vim)
+- Alt + D                       = cut next word into buffer (from cursor forward; works in Vim)
+- Ctrl + R                      = search-command history (repeat keystroke to cycle through matches, then use Tab, or Ctrl+G to exit)
+- Ctrl + Home/End               = beginning/end of current line being typed OR Ctrl+A=beginning, Ctrl+E=end
+- Shift + PageUp/Down           = PageUp/Down
+- Ctrl + Shift PageUp/Down      = one line up/down
+- Ctrl + L                      = clear (also can type clear
+-----------------
+DOS
+- Ctrl + Backspace              = delete last word
+-----------------
+MobaXTerm
+- F11                           = toggle fullscreen
+- Ctrl + Shift + F              = find in terminal
+- Ctrl + Shift + V              = paste into terminal
+- Ctrl + Alt + Q                = quit
+- Ctrl + Alt + T/D              = new tab (set startup and new tab to 'Terminal') (use T or D if using Bash subsystem)
+- Alt + F1                      = 1-terminal mode
+- Ctrl + Shift + O              = 2-terminal mode (horizontal split)
+- Ctrl + Shift + E              = 2-terminal mode (vertical split)
+- Atl + F2                      = 4-terminal mode
+- Ctrl + Alt + Left/Right OR Ctrl + (Shift) + Tab = cycle through tabs
+Disable graphical SSH-browser and automatic switching to it.
+-----------------
+SSH
+- Enter + ~ + .                 = kill hung ssh session
+-----------------
+
+
+----------------------------------
+EDITORS AND IDES
+----------------------------------
+Atom
+- Ctrl + K > Arrow              = splits window (right clicking in open file displays these options)
+- Ctrl + Shift + T              = open last closed file
+-----------------
+VSCode
+- Alt + Shift + LeftClick drag  = mouse column selection
+- Ctrl + `                      = switch to (or toggle) terminal
+- Ctrl + #                      = switch to editor # (use this along with the terminal toggle to switch between the two)
+- F5                            = start debugging
+- Ctrl + B                      = toggle sidebar (when using vim need override shortcut setting or will only work when focused on sidebar - see keybindings.json)
+- Ctrl + RightClick on funcs    = go to defintion (Forward/Backward via mouse skips between the two; if Vim is installed G + D will do the same)
+- Ctrl + Space                  = IntelliSense autocomplete suggestions (with Vim installed Ctrl + N/P scrolls up/down through options like in ctags)
+- Ctrl + /                      = comment in/out selected lines
+- Ctrl + Shift + A              = comment in/out a block
+- Ctrl + Shift + F              = search
+- Ctrl + Shift + H              = replace
+- Ctrl + P                      = search for file
+- Ctrl + Shift + P              = command palate
+- Ctrl + Shift + N              = new window
+- Ctrl + W then Ctrl + Q        = close tab (file window)
+- Ctrl + Shift + T              = open last closed tab (file window)
+- Ctrl + C                      = copy upon mouse highlight (vim normal mode) || use "+Y vim yank to clipboard buffer
+- RightClick/Ctrl + Shift + V   = paste (vim normal mode)
+- Ctrl + V                      = paste (vim insert mode; easy way to do this while right hand on mouse is to do 'a' or 'A' vim shortcut instead of 'i' for insert mode and then paste with Ctrl+V)
+- Ctrl + Shift + B              = select build task to run
+-----------------
+
+
+----------------------------------
+OPERATING SYSTEM
+----------------------------------
+Win
+- Windows + R                   = Run (to launch Command Prompt or Powershell)
+- Windows + Ctrl + C            = toggle gray scale
+To create a custom global shortcut to launch a porgram first create a Shortcut link and place it in C:\ProgramData\Microsoft\Windows\Start Menu\Programs (%ProgramData%\Microsoft\etc); then create a Ctrl + Alt + Key combination in the Properties menu; before taking effect may require relogin or restart.
+-----------------
+Deb
+- Super + T                     = open trash (in file browser)
+- Ctrl + Alt + F1-F7            = TTY
+- Ctrl + Alt + F8-F12           = GUI for different logged in users
+-----------------
+
+
+----------------------------------
+HYPERVISORS
+----------------------------------
+VMWare
+- Alt + Ctrl                    = change focus out of VM
+- Ctrl + G                      = capture keyboard/mouse in VM (use after tabbing to VM)
+-----------------
+
+
+----------------------------------
+OTHER APPLICATIONS AND SERVICES
+----------------------------------
+GitHub
+- T                             = begin searching for file in repository
+-----------------
+Slack
+- Ctrl + Tab                    = tab between different workspaces
+-----------------
+YouTube
+- Ctrl + J/L                    = backward/forward (left/right)
+- Ctrl + K                      = pause (space)
+- /                             = jump to search box
+-----------------

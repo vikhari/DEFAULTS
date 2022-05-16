@@ -1,0 +1,68 @@
+----------------------------------
+HARDWARE - KEYBOARD MACROS
+----------------------------------
+
+A custom Kinesis Freestyle Edge RGB mapping
+Three layouts (and accompanying LED settings) are in this directory for Windows, OSX, and Windows Gaming.
+
+
+----------------------------------
+LIGHTING PROFILES
+----------------------------------
+RGB of Colors
+dark gold     075, 075, 000
+dark blue     000, 000, 050
+dark grey     008, 008, 008
+pink          255, 000, 255
+red           255, 000, 000
+green         000, 255, 255
+-----------------
+----------------------------------
+Profile 1 & 2 (OSX & Windows top layer)
+dark gold     Kinesis Key
+dark blue			Fn Row, PrtSc, Pause
+dark blue     Gaming Keys (except M5/6), Navigaiton (Home, End, PgUp, PgDn)
+dark grey	    Letters/Modifiers/Numbers
+pink          Esc, Del
+red 	        Macro 5 and 6 (pink for Profiles 1 and two, Arrows
+green         Home Row (ASDF/JKL;)
+-----------------
+Profile 3 (Gaming top layer)
+pink          Kinesis Key
+dark gold			Fn Row, PrtSc, Pause
+dark blue     Gaming Keys (except M5/6), Navigaiton (Home, End, PgUp, PgDn)
+dark grey	    Letters/Modifiers/Numbers
+red           Esc, Del
+pink 	        Macro 5 and 6 (pink for Profiles 1 and two
+green         WASD, Arrows
+-----------------
+
+
+----------------------------------
+LAYOUT PROFILES
+----------------------------------
+All Profiles (bottom layer - top layer same for all but Gaming profile (M5/6 empty)
+Macro 1		= play/pause
+Macro 2		= mute
+Macro 3		= volume down
+Macro 4		= volume up
+Macro 5/6	= (see below)
+Macro 7		= previous track
+Macro 8		= next track
+Fn 			= Function layer (shift)
+Lightbulb	= LED backlighting on/off
+-----------------
+All Profiles (Function layer)
+Kinesis Key = Windows calculator key
+Left/Right sided numpads
+-----------------
+Profile 1 & 2 (OSX & Windows top layer)
+Kinesis Key = Enter
+Macro 5 	= move left a desktop/space
+Macro 6 	= move right a desktop/space
+-----------------
+Profile 3 (Gaming top layer)
+Kinesis Key = in-game key mapping
+Macro 1		= in-game key mapping
+Macro 2		= in-game key mapping
+-----------------

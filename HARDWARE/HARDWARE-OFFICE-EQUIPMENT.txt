@@ -1,0 +1,41 @@
+----------------------------------
+HARDWARE - OFFICE EQUIPMENT
+----------------------------------
+
+The most minimal office setup you'll need to handle just about any scenario (with 2-3 machines).
+
+
+----------------------------------
+ELECTRONICS
+----------------------------------
+KVM (Keyboard, Video, Mouse)
+- Switch: IOGear GCS1942 (4 DisplayPort cables) or GCS22U (2 VGA)
+- Keyboard: Code v2 (+ wrist pad)
+- Monitor(s): LG 34UM95C (2 HDMI + 1 DisplayPort)
+- Mouse: Logitech G900
+-----------------
+Cables
+- 4 DisplayPort cables (for KVM)
+- 2 USB-B cables (for KVM)
+- 2 USB-C-to-HDMI cables (to toggle 1 monitor to second/third machines while keeping primary)
+- 2 HDMI/DisplayPort/DVI converter cables
+- 1 VGA-to-DisplayPort cable (just in case)
+- 1 USB-C-to-Ethernet adapter
+- 1 3.5mm extension cable
+-----------------
+Audio
+- Headphones: Senheiser G4me One
+-----------------
+
+
+----------------------------------
+OTHER
+----------------------------------
+Ergonomics
+- Stand-sit convertible desk
+- Chair
+-----------------
+Exercise
+- GRIP Master finger stressor, or stress ball
+- Foot pedals?
+-----------------

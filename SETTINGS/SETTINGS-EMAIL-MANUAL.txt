@@ -1,0 +1,38 @@
+----------------------------------
+SETTINGS - EMAIL (MANUAL)
+----------------------------------
+
+Useful Outlook settings and folders.
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+Settings in Outlook
+- Set custom signatures and turn on for Forwards/Replies.
+- Set dark mode on if prefered.
+- Set read-upon-selected for 5 seconds for emails.
+-----------------
+Folders for professionals
+- Accounts          (add single email upon joining a service to help track online identities)
+- Achievements      (positive feedback and awards)
+- Career            (helpful for personal-professional development)
+- Civic             (if paid for by your company)
+- Conferences       (contacts you make)
+- Employee          (general; can use to create personal timeline via important corporate changes/events)
+- Equipment         (if growing/changing inventory)
+- Events            (remember events you attended)
+- Fun               (non-work info/events)
+- Health            (medical stuff)
+- InternalConvo     (random non-project conversation to stay internal)
+- Listserv          (emails from internal mailing lists)
+- Opportunities     (keep track of opportunities applied to or to revisit in future)
+- Project_Name      (project work separated into folders)
+- Payroll           (self-explanatory)
+- Performance       (tracking Achievements feeds into yearly reviews)
+- Personal          (non-work personal conversations; similar to Fun)
+- Resources         (track useful links on the network)
+- RSS Feeds         (news)
+- ToDo_Project_Name (accompanying folder for projects that helps track the most recent email for all threads to make sure they're wrapped up before filing)
+- Travel            (hotel/plane info and reimbursement)
+-----------------

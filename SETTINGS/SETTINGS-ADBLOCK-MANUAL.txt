@@ -1,0 +1,37 @@
+----------------------------------
+SETTINGS - ADBLOCK (MANUAL)
+----------------------------------
+
+Follow instructions below to setup useful AdBlock (not AdBlock Plus) web browser extension lists to avoid annoying, tracking, and confusing web elements.
+
+Lines with = :              signify the mapping is a default
+Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for this coming soon)
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+General
+- Allow some non-intrusive advertising                  = yes
+- Allow ads on specific YouTube channels                > no
+- Add itmes to the right click menu                     = yes
+- Show number of ads blocked on AdBlock button          = yes
+- Show number o fads blocked on AdBlock menu            = yes
+- Show 'AdBlock' panel in the developer tools           = yes
+- Allow AdBlock to collect anonymous filter list...     = no
+- Enable local content cachine for popular website...   = no
+- Allow AdBlock to show me messages on webpages...      = yes
+- I'm an advanced user, show me advanced options        = shrug (doesn't unhide much)
+Filter Lists
+- Acceptable Ads                                        = yes
+- AdBlock custom filters                                = yes
+- Anti-Circumvention filters                            - yes
+- EasyList                                              = yes
+- Adblock Warning Removal List                          > yes
+- Antisocial filter list                                = no
+- Cryptocurrency (Bitcoin) Mining Proteciton List       = no
+- EasyPrivacy (privacy protection)                      > yes
+- Fanboy's Annoyances                                   > yes
+- Fanboy's Notifications                                > yes
+- I Don't Care About Cookies                            > yes
+-----------------

@@ -1,0 +1,68 @@
+----------------------------------
+APPS AND LAYOUT (OSX)
+----------------------------------
+
+This list provides essential applications for navigation and carrying out tasks.
+Dock has the ideology of grouping similar types of apps together.
+However, some core applications are hidden as they are brought up via keyboard shortcuts (see HARDWARE-KEYBOARD-MAPPINGS.txt).
+
+
+----------------------------------
+APPS
+----------------------------------
+Navigation
+- Better Touch Tool (supports Touch Bar customization on Macbook Pro; necessary to have normal mouse scrolling while using natural scrolling on trackpad)
+- Hyper Dock        (useful for window snapping)
+- Logitech G Hub    (supports mouse macros)
+- Smartset          (Kinesis split ergonomic keyboard tool; macros: see HARDWARE-KEYBOARD-MACROS.txt)
+-----------------
+Taskbar/Menu
+- Bartender         (Menu Bar customization allowing for at-a-glance performance stats and hiding always-open background services like BTT)
+- iStat Menus       (easy-access performance stats via Notification Center)
+- itsycal           (bigger calendar pulldown from Menu Bar than what is provided out of box by Osx)
+-----------------
+Other
+- Atom
+- Chrome            (with Bookolio and Adblock plugins)
+- Foxit Reader      (cross-platofrm PDF reader with customizable background color which eases screens on eyes)
+- Inkscape          (open-source Adobe Illustrator alternative for Osx)
+- iTerm2            (terminal for Osx)
+- LibreOffice       (cross-platform free office suite)
+- Microsoft Remote Desktop
+- Slack
+- Spotify
+- Sublime Text
+- The Unarchiver    (compression tool supporting a plethora of formats)
+- Thunderbird       (allows for multiple email accounts to be used in one place, password-protected, and with any server authentication)
+- VSCode
+- Zoom/Other
+-----------------
+
+
+----------------------------------
+LAYOUT - DOCK (LEFT TO RIGHT)
+----------------------------------
+Defaults
+- Finder
+- Launchpad
+- App Store
+-----------------
+Essentials
+- Libre Office
+- Atom/Sublime Text
+- Foxit Reader
+- Google Chrome
+-----------------
+Communication
+- Thunderbird
+- Slack
+-----------------
+Separator
+- <space>           (invisible separator; restart Dock service after adding: defaults write com.apple.dock persistent-apps -array-add '{tile-type="spacer-tile";}')
+- <recent apps>
+-----------------
+Uncustomizable
+- <separator>
+- Downloads
+- Trash
+-----------------

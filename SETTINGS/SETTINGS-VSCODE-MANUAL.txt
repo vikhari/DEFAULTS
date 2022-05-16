@@ -1,0 +1,35 @@
+----------------------------------
+SETTINGS - VSCODE (MANUAL)
+----------------------------------
+
+Follow instructions below to setup VSCode and install the configs properly.
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+Install Extensions
+- Vim
+- Python
+- Go / C / C++ / C#
+-----------------
+UI Settings
+- Set Dark+ theme
+- Settings > Terminal > Integrated:CommandsToSkipShell > add "-workbench.action.quickOpen" (enables Ctrl + N/P command history shortcuts)
+- If on Windows: Settings > Vim > Vimrc:Path > set path to your .vimrc (place in C:\Users\username\AppData\Local\Programs\Microsoft VS Code\.vimrc)
+-----------------
+Template Files
+- Place the TEMPLATE-VSCODE-SETTINGS    file in ~/.config/Code/User/settings.json (or C:\Users\username\AppData\Roaming\Code\User\settings.json)
+- Place the TEMPLATE-VSCODE-KEYBINDINGS file in ~/.config/Code/User/keybindings.json (these are required with vim to override captured shortcuts)
+-----------------
+Workspace Setup
+- Restart app after above steps
+- Open all folders related to your project (drag-drop is easiest); folders do not need to share root folders
+- Save the workspace to a file which will remember open files locations
+- Creating a second duplicated workspace can be nice to easily open up sibling files from folders (save/biuld only in one)
+-----------------
+Other Spinup Tips
+- When a file is clicked on in the file explorer the window will show up italicized to indicate temporarily open; double click for permanent open
+- See the Editor Playground for a tutorial
+- See CHEATSHEET-SHORTCUTS.txt file for useful keyboard mappings
+-----------------
