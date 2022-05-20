@@ -11,7 +11,7 @@ It is not likely many people have thought this much about shortcuts, cross-platf
 I hope to eventually have some nice GIFs here to more easily convey the elegance of learning these core shortcuts and tools...
 That said, the real reason to follow this process is if you agree with the [philosophy](#bare-necessities---forget-about-your-worries--your-strife).  
 
-This is the approximate ideal order to learn shortcuts and build fmailiarity, from the ground up while balancing frequency needed:
+This is the approximate ideal order to learn shortcuts and build familiarity, from the ground up while balancing frequency needed:
 ```
 - Keyboard Shortcuts  (non-programmer essentials)
   - Text; practice typing during this phase too                   (CHEATSHEET-SHORTCUTS.txt)  
