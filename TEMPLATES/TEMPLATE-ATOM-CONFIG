@@ -1,0 +1,17 @@
+"*":
+  "autocomplete-plus":
+    enableAutoActivation: false
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "spell-check"
+    ]
+    openEmptyEditorOnStart: false
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "no"
+  editor:
+    defaultFontSize: 18
+    fontSize: 19
+  welcome:
+    showOnStartup: false
