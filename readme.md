@@ -1,6 +1,6 @@
 # Level up your core computer skills!
 
-Cheatsheets, configs, mappings, settings, templates, and other defaults (plus x-platofrm).  
+Cheatsheets, configs, mappings, settings, templates, and other defaults (plus X-platform).  
 All you'll ever need to do just about anything yet still feel not overwhelmed! #Minimalism
 
 ---
