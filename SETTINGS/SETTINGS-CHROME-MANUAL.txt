@@ -116,6 +116,7 @@ Custome Sync
 Extensions
 - AdBlock
 - Bookolio
+- Dark Reader
 - Pinterest
 - Pocket
 -----------------
