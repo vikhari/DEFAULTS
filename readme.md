@@ -5,7 +5,7 @@ All you'll ever need to do just about anything yet still feel not overwhelmed! #
 
 ---
 
-### Trust the overanalytic, iterative mind of an OC(P)D programmer..
+### Trust the overanalytic, iterative mind of an OCD programmer..
 
 It is not likely many people have thought this much about shortcuts, cross-platform and cross-applicaiton!  
 I hope to eventually have some nice GIFs here to more easily convey the elegance of learning these core shortcuts and tools...
