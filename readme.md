@@ -41,3 +41,9 @@ But in summary they aim to:
 - Avoiding application bloat by having too many applications that do similar things (high number of actions, low number of tools; see `APP-LIST-XXX.txt` files)
 - Help in odd circumstances (e.g. use keyboard shortcut to move a window over to laptop if monitor not working, or be able to browse via only mouse from couch)
 - Build skills that make a programmer versed in all core types of opeerating systems, environments, and applications
+
+---
+
+### Future
+
+Ansible-ization! Hopefully...
