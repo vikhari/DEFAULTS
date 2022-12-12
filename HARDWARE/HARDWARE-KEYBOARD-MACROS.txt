@@ -27,7 +27,7 @@ Profile 1 & 2 (OSX & Windows top layer)
 -----------------
 Profile 3 (Gaming top layer)
 - pink                          > Kinesis Key
-- dark gold		                > Fn Row, PrtSc, Pause
+- dark gold		                  > Fn Row, PrtSc, Pause
 - dark blue                     > Gaming Keys (except M5/6), Navigaiton (Home, End, PgUp, PgDn)
 - dark grey	                    > Letters/Modifiers/Numbers
 - red                           > Esc, Del
@@ -40,14 +40,14 @@ Profile 3 (Gaming top layer)
 LAYOUT PROFILES
 ----------------------------------
 All Profiles (bottom layer - top layer same for all but Gaming profile (M5/6 empty)
-- Macro 1		                > play/pause
-- Macro 2		                > mute
-- Macro 3		                > volume down
-- Macro 4		                > volume up
+- Macro 1		                    > play/pause
+- Macro 2		                    > mute
+- Macro 3		                    > volume down
+- Macro 4		                    > volume up
 - Macro 5/6	                    > (see below)
-- Macro 7		                > previous track
-- Macro 8		                > next track
-- Fn 			                = Function layer (shift)
+- Macro 7		                    > previous track
+- Macro 8		                    > next track
+- Fn 			                      = Function layer (shift)
 - Lightbulb	                    = LED backlighting on/off
 -----------------
 All Profiles (Function layer)
@@ -60,7 +60,7 @@ Profile 1 & 2 (OSX & Windows top layer)
 - Macro 6 	                    > move right a desktop/space
 -----------------
 Profile 3 (Gaming top layer)
-- Kinesis Key                   > in-game key mapping
-- Macro 1		                > in-game key mapping
-- Macro 2		                > in-game key mapping
+- Kinesis Key                   > Enter (game-specific; e.g. send message)
+- Macro 5		                    > PgUp  (game-specific; e.g. open chat)
+- Macro 6		                    > PgDn  (game-specific; e.g. team chat)
 -----------------
