@@ -64,6 +64,7 @@ Chrome/Chromium and Firefox (see modifier subsitutes at top of file for Osx)
 - Ctrl + Shift + G              = previous occurence of find search
 - Shift + Del                   = delete suggestion from omni bar
 - Ctrl + Shift + Del            = clear browsing data
+- Ctrl + Shift + I              = open dev tools (Escape after open toggles a split terminal)
 -----------------
 Explorer (Windows)
 - F11                           = toggle fullscreen
@@ -119,7 +120,7 @@ Bash
 - Ctrl + H                      = delete (also Ctrl + 8; works in Vim's Insert Mode)
 - Ctrl + U                      = cut text into buffer from cursor to beginning of line
 - Ctrl + K                      = cut text into buffer from cursor to end of line
-- Ctrl + Y                      = yank back (paste) text from buffer (works in Vim)
+- Ctrl + Y                      = yank back (paste) text from buffer (works in Vim); Alt + Y cycles other yanks
 - Ctrl + W                      = cut last word into buffer (behind cursor; works in Vim)
 - Alt + D                       = cut next word into buffer (from cursor forward; works in Vim)
 - Ctrl + R                      = search-command history (repeat keystroke to cycle through matches, then use Tab, or Ctrl+G to exit)
@@ -157,26 +158,36 @@ Atom
 - Ctrl + Shift + T              = open last closed file
 -----------------
 VSCode
-- Alt + Shift + LeftClick drag  = mouse column selection
-- Ctrl + `                      = switch to (or toggle) terminal
-- Ctrl + #                      = switch to editor # (use this along with the terminal toggle to switch between the two)
-- F5                            = start debugging
-- Ctrl + B                      = toggle sidebar (when using vim need override shortcut setting or will only work when focused on sidebar - see keybindings.json)
-- Ctrl + RightClick on funcs    = go to defintion (Forward/Backward via mouse skips between the two; if Vim is installed G + D will do the same)
-- Ctrl + Space                  = IntelliSense autocomplete suggestions (with Vim installed Ctrl + N/P scrolls up/down through options like in ctags)
-- Ctrl + /                      = comment in/out selected lines
-- Ctrl + Shift + A              = comment in/out a block
-- Ctrl + Shift + F              = search
-- Ctrl + Shift + H              = replace
+- Ctrl + Shift + N              = new app window
+- Ctrl + R                      = open recent (useful for workspaces or folder drag-drops)
 - Ctrl + P                      = search for file
 - Ctrl + Shift + P              = command palate
-- Ctrl + Shift + N              = new window
-- Ctrl + W then Ctrl + Q        = close tab (file window)
-- Ctrl + Shift + T              = open last closed tab (file window)
-- Ctrl + C                      = copy upon mouse highlight (vim normal mode) || use "+Y vim yank to clipboard buffer
-- RightClick/Ctrl + Shift + V   = paste (vim normal mode)
-- Ctrl + V                      = paste (vim insert mode; easy way to do this while right hand on mouse is to do 'a' or 'A' vim shortcut instead of 'i' for insert mode and then paste with Ctrl+V)
-- Ctrl + Shift + B              = select build task to run
+- Ctrl + Shift + B              = build task to run
+- F5                            = start debugging
+- Ctrl + `                      = switch to (and then toggle) terminal
+- Alt + `                       > switch to editor (Alt + # = switch to editor window #)
+- Ctrl + Shift + E              = sidebar editor (will toggle between editor and sidebar once open)
+- Ctrl + Shift + F              = sidebar search/find (Alt + C = toggle case-sensitive; this is also possible in editor though hidden by default; Alt + R = toggle regex)
+- Ctrl + Shift + H              = within sidebar search do replace
+- Ctrl + Alt + Enter            = within sidebar search do replace all
+- Ctrl + Shift + G              = sidebar source control (will toggle between editor and sidebar once open)
+- Ctrl + A                      > sidebar toggle (when using vim need override shortcut setting or will only work when focused on sidebar - see keybindings.json)
+- Ctrl + W then Ctrl + Q        = within editor close tab (file window)
+- Ctrl + Shift + T              = within editor open last closed tab (file window)
+- Alt + Left/Right              > within editor forward/backward through navigation (works across files like a web browser)
+- Ctrl + Shift + A              = within editor comment in/out a block
+- Ctrl + /                      = within editor comment in/out selected lines
+- G + H                         = within editor (with vim extension) show mouse-hover popup (avoid having to mouse-over)
+- G + D                         = within editor (with vim extension) go to definition; lowercase = local file's definition; uppercase = global; may have to be used twice if not at start of function name
+- Ctrl + LeftClick              = within editor go to defintion
+- Ctrl + Space                  = within editor use IntelliSense autocomplete (with vim use Ctrl + N/P to use ctags-like scroll of options)
+- Alt + Up/Down                 = within editor move current line up/down
+- Ctrl + Z                      = within editor undo
+- Ctrl + Shift + Z              = within editor redo
+- Ctrl + C                      = within editor copy upon mouse highlight (vim normal mode) || use "+Y vim yank to clipboard buffer
+- Ctrl + V                      = within editor (vim insert mode) paste 
+- Ctrl + Shift + V / RightClick = within editor (vim normal mode) paste from external buffer; right-hand-on-mouse method is to use 'a'/'A' to transitino to insert mode, mouse Enter, and paste with Ctrl+V)
+- Alt + Shift + LeftClick drag  = within editor mouse column selection
 -----------------
 
 
@@ -209,6 +220,11 @@ OTHER APPLICATIONS AND SERVICES
 ----------------------------------
 GitHub
 - T                             = begin searching for file in repository
+- G + C                         = go to code tab
+- /                             = go to search bar
+-----------------
+Google
+- /                             = go to search bar
 -----------------
 Slack
 - Ctrl + Tab                    = tab between different workspaces

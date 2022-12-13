@@ -3,6 +3,16 @@
     enableAutoActivation: false
   autosave:
     enabled: true
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      """"
+      "''"
+      "«»"
+      "‹›"
+    ]
   core:
     disabledPackages: [
       "spell-check"
@@ -12,6 +22,9 @@
     telemetryConsent: "no"
   editor:
     defaultFontSize: 18
-    fontSize: 19
+    fontFamily: "DejaVu Sans Mono"
+    fontSize: 24
+  "exception-reporting":
+    userId: "d58c61d1-18d6-473d-9bf9-4e413a64f85c"
   welcome:
     showOnStartup: false

@@ -11,9 +11,11 @@ If desired, configure mouse via Piper to complement default/custom keyboard shor
 CONFIGURE
 ----------------------------------
 Tweaks
+- Fonts:            Set interface, document, and monospaced text to DejaVu Sans Mono Bold (12/14)
 - Keyboard & Mouse: Additional Layout Options > Caps Lock Behavior = "Caps Lock is also a Ctrl"
 - Top Bar:          Battery Percentage = On; Clock Seconds = On; Calendar Week Number = On
 - Workspaces:       Static Workspaces = On; Number of Workspaces = 2
+- Extensions:       Desktop Icons > "Show the personal folder on desktop" = Off
 -----------------
 RCs
 - Bashrc:           uncomment "force_color_prompt=yes" and replace "\033[01;32m\" with "\033[01;31m\" in the file; then "source" it
@@ -22,6 +24,8 @@ RCs
 Terminator
 - Profiles:         General > Font = Ubuntu Mono Regular 18; Cursor Color = Red (selection box); Terminal bell = "Visual flash" (only); Colors > Built-in schemes = "Green on black"; Scrolling > Infinite Scrollback = On
 - Keybindings:      see HARDWARE-KEYBOARD-MAPPINGS.txt
+- Note:             When using Infinite Scrollback and multiple terminals each one's history goes into the user's history upon its close (in clusters); while open they have separate history output (upon a reopen of app it will appear as previously stated)
+
 -----------------
 System
 - Background:       change to be different from other systems for coolness/easy recognition of displays
