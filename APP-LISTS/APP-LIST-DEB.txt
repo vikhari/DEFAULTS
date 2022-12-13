@@ -62,6 +62,7 @@ OTHER USEFUL DEB PACKAGES/NOTES
 ----------------------------------
 Packages
 - find
+- fwupdmgr (manage peripheral/other firmware)
 - whereis
 - grep
 - locate
