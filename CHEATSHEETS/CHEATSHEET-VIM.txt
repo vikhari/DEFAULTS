@@ -50,17 +50,18 @@ COMMAND MODE
 - DD                            = cut line
 - X                             = delete one character
 - Shift + X                     = backspace
-- Shift + >>                    = indent forward
-- Shift + <<                    = indent backward
+- Shift + >>                    = indent forward  (alternatively, highlight line in visual mode and use >)
+- Shift + <<                    = indent backward (alternatively, highlight line in visual mode and use <)
 - YY                            = yank/copy a line
+- "+YY                          = yank to global cut buffer (+) (" is used to specify a register to use), "+P = paste from global cut buffer (command mode, but it won't show as a command because you don't type a colon first)
 - Shift + P                     = paste above current line
 - P                             = paste after current line
+- "0p                           = paste the last yank (to repaste same buffer over and over; this is because a visual paste cuts the original pasted over text into the default buffer; using a numbered buffer allows multiple custom copy-pastes via #y/#p)
 - .                             = paste what was last written in insert mode
 - /pattern                      = search forward for pattern (?pattern for backwards search), N = next, Shift + N = back
-- "+YY                          = yank to global cut buffer (+) (" is used to specify a register to use), "+P = paste from global cut buffer (command mode, but it won't show as a command because you don't type a colon first)
-- `<number>                     = jump to position in previous file edited (this is registered in the viminfo file once a file is viewed/edited and closed, but only if a mark/`# is NOT used to jump to another file; i.e. opening a file, jumping using a mark, and then closing doesn't register the opened file into the viminfo list) (each time a new file is entered into the viminfo list, again, via not using a mark jump, the files shift: 0>1>2>3>4>5>6>7>8>9)
 - M <letter>                    = set a mark at column/line in current file, ' + <letter> = visit beginning of line of mark (if another vim window with the same file is open via split these will be remembered even if the current window is closed and reopened)
 - Q + <letter> + Q              = record a sequence to a register, @<letter> to recall as a command, Q + <register_letter> + Q = delete/blank the register
+- `<number>                     = jump to position in previous file edited (this is registered in the viminfo file once a file is viewed/edited and closed, but only if a mark/`# is NOT used to jump to another file; i.e. opening a file, jumping using a mark, and then closing doesn't register the opened file into the viminfo list) (each time a new file is entered into the viminfo list, again, via not using a mark jump, the files shift: 0>1>2>3>4>5>6>7>8>9)
 -----------------
 
 

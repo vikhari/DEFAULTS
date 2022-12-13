@@ -1,0 +1,18 @@
+----------------------------------
+SETTINGS - WINDOWS (MANUAL)
+----------------------------------
+
+Install operating system, setting up the user, and device name.
+Then install the apps from APP-LIST-WIN.txt before proceeding to configure the apps via CONFIG-WIN-AUTO.ps script, or manually via procedure below.
+If desired, configure mouse via Piper to complement default/custom keyboard shortcuts (using mappings in HARDWARE-MOUSE-MAPPINGS.txt); or install LGHub/Razer Synapse.
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+RegEdit (requires admin)
+- Browse to:                [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+- Create an entry:          Binary
+- Set its name:             Scancode Map
+- Set its value:            00,00,00,00,00,00,00,00,02,00,00,00,1d,00,3a,00,00,00,00,00
+-----------------

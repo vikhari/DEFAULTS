@@ -3,6 +3,7 @@ SETTINGS - ATOM (MANUAL)
 ----------------------------------
 
 Follow instructions below to setup Atom and install the configs properly.
+Since Atom needs to keep a directory open to save state it is best to create ~/Documents/tmp-notes.md.
 
 
 ----------------------------------
@@ -15,8 +16,8 @@ UI Settings
 - Set One Dark theme and syntax
 -----------------
 Vim Custom Shortcut
-- Add the following to ~/.atom/packages/vim-mode-plus/keymaps/vim-mode-plus.cson (under 'atom-text-editor.vim-mode-plus.insert-mode:'):
-'j j': 'vim-mode-plus:reset-normal-mode'
+- Add the following to ~/.atom/packages/vim-mode-plus/keymaps/vim-mode-plus.cson (under 'atom-text-editor.vim-mode-plus.insert-mode:'): 'j j': 'vim-mode-plus:reset-normal-mode'
+- Packages > Vim Mode > Settings > Use Clipboard As Default Register
 -----------------
 Template Files
 - Place the TEMPLATE-ATOM-CONFIG file in ~/.atom/config.cson (or C:\Users\username\.atom\config.cson)

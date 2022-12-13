@@ -9,13 +9,25 @@ Follow instructions below to setup VSCode and install the configs properly.
 CONFIGURE
 ----------------------------------
 Install Extensions
+- Babel Javascript
+- Debugger for Firefox
+- ESLint
+- GitLens
+- Go/C/C++/C#
+- HTML CSS Support
+- isort
+- npm Intellisense
+- Path Intellisense
+- Pylance/Python
+- TypeScript Vue Plugin
 - Vim
-- Python
-- Go / C / C++ / C#
+- Vue Language Framework (Volar)
+- vuetify-vscode
+- webpack
 -----------------
 UI Settings
 - Set Dark+ theme
-- Settings > Terminal > Integrated:CommandsToSkipShell > add "-workbench.action.quickOpen" (enables Ctrl + N/P command history shortcuts)
+- Uncheck status bar items: Workspace Trust, Go, Editor Indentation, Feedback, Volar 
 - If on Windows: Settings > Vim > Vimrc:Path > set path to your .vimrc (place in C:\Users\username\AppData\Local\Programs\Microsoft VS Code\.vimrc)
 -----------------
 Template Files
