@@ -46,4 +46,4 @@ But in summary they aim to:
 
 ### Future
 
-Ansible-ization! Hopefully...
+Ansible-ization may eventually be done but for now see the minimal VEEFAULTS folder.
