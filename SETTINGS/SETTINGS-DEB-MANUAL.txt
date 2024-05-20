@@ -45,13 +45,13 @@ Chromium (primary browser)
 - Show bookmarks toolbar
 - Configure search engine shortcuts
 - Configure advanced settings (URL = "chrome://flags"): Hardware Media Key Handling = Disabled
-- Install Adblock and Bookolio extensions
+- Install Adblock Plus, Dark Reader, and Bookolio extensions
 -----------------
 Firefox (secondary browser)
 - Show bookmarks toolbar
 - Configure search engine shortcuts
 - Configure advanced settings (URL = "about:config"): media.hardwaremediakeys.enabled = false
-- Install Adblock extension
+- Install Adblock Plus and Dark Reader extensions
 -----------------
 Dock
 - Pin apps to dock in order according to APP-LIST-DEB.txt

@@ -1,0 +1,53 @@
+----------------------------------
+SETTINGS - SLACK (MANUAL)
+----------------------------------
+
+Follow instructions below to config Slack client preferences that are different from default.
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+Notifications
+- Allow notifications time ...
+- Set default time for reminders ...
+- Deliver notifications via ...
+-----------------
+Navigation
+- Home, Later, and uncheck the rest
+-----------------
+Home
+- Show a dot on the Home icon when there is an unread activity: False
+- Always show in the sidebar: Threads, Drafts/sent
+- Show: Unreads only (if many channels), otherwise All
+- Separate private channels from public ones in sidebar: True
+- Separate direct messages and apps from channels in sidebar: True
+-----------------
+Themes
+- Dark
+- Barbra/Custom
+-----------------
+Messages & media
+- Names: Just display names
+- Show times with a 24-hour clock: True
+- Custom emoji: Plus, ThumbsUp, Laughing
+- Show images and files from linked websites: False
+- Show text previews of linked websites: True
+-----------------
+Mark as read
+- When I view a channel: Start me where I left off, and mark channel read
+-----------------
+Audio & video
+- Mute my microphone: True
+-----------------
+Connected accounts
+- Allow Slack to connect with other apps: False
+-----------------
+Privacy
+- Slack Connect discoverability: No one
+- Contact sharing: No one
+-----------------
+Advanced
+- Launch app on login: False
+- Leave app running in notificaiton area when window is closed: True
+-----------------

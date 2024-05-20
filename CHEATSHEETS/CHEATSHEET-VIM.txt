@@ -9,6 +9,7 @@ Most of these are defaults but some may be custom based off vimrc.
 COMMAND MODE
 ----------------------------------
 (for commands that start with colon, the below is case sensitive)
+- Ctrl + S                      = XOFF (software flow control feature via the OS's terminal device driver) freezes input form being sent into program; use Ctrl + Q to unfreeze
 - :q OR Ctrl + W, then Q        = quit
 - q:                            = command-line window (commands)
 - q/                            = command-line window (searches) (/Enter = perform last search foward; ?Enter = perform last search backward)

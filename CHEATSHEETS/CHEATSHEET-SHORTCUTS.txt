@@ -11,6 +11,7 @@ Besides below, here is a cool link too: https://en.wikipedia.org/wiki/Table_of_k
 TEXT
 ----------------------------------
 All
+- Shift + MouseScroll		= scroll left/right horizontally instead of vertically (may only work when window is in focus)
 - Ctrl/Command + C              = copy (map to Wheel Left as indicated in HARDWARE-MOUSE-MAPPINGS.txt)
 - Ctrl/Command + X              = cut
 - Ctrl/Command + V              = paste
@@ -81,6 +82,9 @@ Finder (Osx)
 ----------------------------------
 OFFICE
 ----------------------------------
+Adobe Acrobat Reader
+- Ctrl + Shift + -/=		= rotate left/right
+-----------------
 Foxit Reader
 - Ctrl + 0                      = fit page (zoom)
 - Ctrl + 3                      = fit visible (zoom)
@@ -127,7 +131,7 @@ Bash
 - Ctrl + Home/End               = beginning/end of current line being typed OR Ctrl+A=beginning, Ctrl+E=end
 - Shift + PageUp/Down           = PageUp/Down
 - Ctrl + Shift PageUp/Down      = one line up/down
-- Ctrl + L                      = clear (also can type clear
+- Ctrl + L                      = clear (also can type clear -x); this is better than just clear because it allows scrolling output buffer above
 -----------------
 DOS
 - Ctrl + Backspace              = delete last word
@@ -144,6 +148,12 @@ MobaXTerm
 - Atl + F2                      = 4-terminal mode
 - Ctrl + Alt + Left/Right OR Ctrl + (Shift) + Tab = cycle through tabs
 Disable graphical SSH-browser and automatic switching to it.
+-----------------
+PowerShell
+- Ctrl + Alt + Shift + ?	= dump list of all keyboard shortcuts
+- Ctrl + Space			= show possible parameters (visual UI selection)
+- Ctrl + PageUp/Down		= scroll line
+- Alt + #, then X		= insert # instances of X
 -----------------
 SSH
 - Enter + ~ + .                 = kill hung ssh session

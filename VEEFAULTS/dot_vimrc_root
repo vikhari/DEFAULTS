@@ -1,0 +1,17 @@
+" VEEFAULTS VERSION
+" (root may be shared with others; split out the user settings to be unintrusive)
+
+" ROOT SETTINGS
+" =============
+" Audiovisual :
+syntax enable
+set noerrorbells "no audio bell
+set mat=2 "tenths of second to blink when matching brackets
+" Searching :
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+set hlsearch
+" Other :
+imap jj <ESC>

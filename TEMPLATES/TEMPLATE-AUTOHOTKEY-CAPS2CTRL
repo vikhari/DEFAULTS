@@ -1,0 +1,11 @@
+; Put this into caps_to_ctrl.ahk file and create a shortcut to launch it at startup or manually (see SETTINGS-CAPS2CTRL-MANUAL.txt)
+
+; CAPSLOCK-CTRL SWAP
+CapsLock::RCtrl
+RCtrl::CapsLock
+
+; MOUSEBUTTON
+;(option1; useful to copy-paste-exec with mouse only or left hand for copy-paste and right for mouse enter)
+MButton::send("{Enter}") 				
+;(option2; switch windows; use this if additional mouse buttons like wheel-left and wheel-right)
+Mbutton::send("{LWin down}{Tab down}{Tab up}{LWin up}")

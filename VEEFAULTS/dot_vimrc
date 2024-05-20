@@ -1,0 +1,39 @@
+" VEEFAULTS VERSION
+" (root may be shared with others; split out the user settings to be unintrusive)
+
+" ROOT SETTINGS
+" =============
+" Audiovisual :
+syntax enable
+set noerrorbells "no audio bell
+set mat=2 "tenths of second to blink when matching brackets
+" Searching :
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+set hlsearch
+" Other :
+imap jj <ESC>
+
+" USER SETTINGS
+" =============
+" Audiovisual :
+set background=dark
+set novisualbell
+set ruler
+set number "comment out if mouse select is grabbing line numbers
+colorscheme desert
+" Spacing :
+set backspace=indent,eol,start
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set ai
+set si
+" Other :
+set nobackup
+set nowb
+set noswapfile
+cmap boo w !sudo tee >/dev/null % "use L (Load) not O (Ok)

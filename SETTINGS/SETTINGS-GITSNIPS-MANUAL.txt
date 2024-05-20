@@ -1,0 +1,36 @@
+----------------------------------
+SETTINGS - GITLAB SNIPPETS (MANUAL)
+----------------------------------
+
+GitLab snippets support being cloned and maintained just like code repositories, practical for:
+- backup and availability across devices 
+- collaboration (by sharing your personal notes others can help more effectively with commands/errors/logs)
+- have multiple levels of organization (parent folder, snippets, 10 files per snippet, sections within each file)
+- temporary notes waiting to be filed away elsewhere - revision helps stay better organized, rather than filing and later needing reorganizing
+
+----------------------------------
+CREATE SNIPPETS
+----------------------------------
+- Create at least 2 snippets.
+- Rename them from snippetfile#.txt to snip_logs and snip_notes.
+- As in the next sections create new files (up to 10 per snippet) to track useful things - what is shown below is just a recommendation...do you!
+- Put the snippets in a parent folder so that the structure is now something like my_git_snips/snip_logs/commands.log.
+
+----------------------------------
+SETUP TEMPLATES
+----------------------------------
+LOGS  			(title of snippets can be changed in GitLab web interface for a snippet)
+- TEMP.log		= temp stuff (to be deleted or filed into below later)
+- commands.log		= commands from troubleshooting or practically anything else
+- directories.log	= directories on different nodes/for different services
+- errors.log		= warnings/errors with notes about cause, explanation, and/or solution
+- variables.log		= environemnt variables
+-----------------
+NOTES 			(title of snippets can be changed in GitLab web interface for a snippet)
+- TEMP.md		= temp stuff (to be deleted or filed into below later)
+- cuts.md		= shortcuts for reference at any time
+- guis.md		= application or web UI directions or explanations/notes
+- sets.md		= settings for various things that you want to remember, and if OCD transfer to a repo like this one ;)
+- tool.md		= tools that you found useful or for which you want to retain usage notes
+- urls.md		= addresses for frontends or subdomains visited commonly or for testing
+-----------------
