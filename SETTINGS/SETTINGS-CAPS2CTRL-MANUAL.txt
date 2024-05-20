@@ -1,0 +1,45 @@
+----------------------------------
+SETTINGS - CAPS TO CTRL (MANUAL)
+----------------------------------
+
+CapsLock is a completely pointless key for most of us...why waste a key?!
+It always surprises me that this has not caught on like Dark Mode,
+which I use to think was an obvious accessibility feature, yet it still took years to be implemented at the OS level (RIP Flux).
+
+There are some reasons every day is exactly the same:
+- In sensitive environments administrators lockdown applicaitons and registry edits that can be performed (remapped keys could be attacked).
+- Many people don't realize just how dramatically their life could be changed by remapping the key.
+- There has not been enough push back (unlike Dark Mode) for a consensus to buid on what the new mapping should be.
+
+That said, if you have viewed HARDWARE-KEYBOARD-MAPPINGS.txt you will see that even OSX still has a similar usage of Command key to Ctrl.
+I've become extremely fast with navigating CLI, editing/typing, and shortcutting because of mapping CapsLock to Ctrl (or swapping them).
+
+Of course, to me the most important and overwhelmingly convincing reason is that it is simply much more ergonomic for your hands.
+This is mirrored by the fact that keyboards like the CODE v2 by WASD implement dipswitches just so that you can do it even when admins don't allow via OS.
+
+There are multiple ways to achieve this remapping.
+In Windows, registry changes are the best as they attack the root cause and change the functionality within the OS itself instead of capturing the keycode.
+However, if RegEdit changes are blocked for you, AutoHotKey or Microsoft PowerToys provide good alternatives
+(albeit not as good: https://documentation.help/AHK_H-2.0/Remap.htm).
+
+#MakeCtrlMoreAccessible!
+
+
+----------------------------------
+CONFIGURE
+----------------------------------
+DEB
+- Gnome Tweak Tool > Keybaord > Use CapsLock as Ctrl (or swap them)
+-----------------
+OSX
+- Built-in Settings (see HARDWARE-KEYBOARD-MAPPINGS.txt)
+-----------------
+WIN
+- AutoHotKey
+  (can stop working temporarily/require reload of script)
+  See SETTINGS-WIN-MANUAL.txt
+- MS PowerToys > Keyboard Manager > Keys
+  (can choose to remap CapsLock to Ctrl or to swap them)
+- RegEdit > Create new entry as follows:
+  See SETTINGS-WIN-MANUAL.txt
+-----------------

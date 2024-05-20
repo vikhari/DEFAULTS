@@ -4,7 +4,7 @@
 " META & MISCELLANEOUS
 
 " Mouse
-set mouse=a
+set mouse=a "visual mode activates - may conflict with yank
 
 " Backup
 set nobackup
@@ -16,23 +16,24 @@ set backspace=indent,eol,start
 
 " Custom Shortcuts
 imap jj <ESC>
+cmap boo w !sudo tee >/dev/null % "use L (Load) not O (Ok)
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " AUDIOVISUAL
 
 " Audio
-set noerrorbells
+set noerrorbells "no audio bell
 
 " Visual Meta
 set background=dark
 set novisualbell
 set ruler
-set number
+set number "comment if mouse select is grabbing line nums
 
 " Visual Text
 syntax enable
 colorscheme desert
-set mat=2
+set mat=2 "tenths of second to blink when matching brackets
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SPACING

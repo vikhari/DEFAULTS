@@ -41,6 +41,13 @@ Lines with > instead of =:  signify the mapping needs to be set (TODO: tool for 
 ----------------------------------
 MACROS
 ----------------------------------
+"4-5 button" mouse
+- Left/Right Click              = defaults
+- Backward Key                  = backward                                   (Alt/Command + Left  in most browsers, but this macro often does not need to be set manually)
+- Forward Key                   = forward                                    (Alt/Command + Right in most browsers, but this macro often does not need to be set manually)
+- Wheel Click                   > Overview/Mission Control/View Applications (as indicated in HARDWARE-KEYBOARD-MAPPINGS.txt; can be used to change workspaces)
+- No moving left/right one tab  = do this with the left hand via Ctrl + (Shift) + Tab!
+-----------------
 "5+ button" mouse
 - Left/Right Click              = defaults
 - Left Backward Key             > move left one tab                          (Ctrl + Shift + Tab  in most browsers)
@@ -50,12 +57,5 @@ MACROS
 - Wheel Click                   > Overview/Mission Control/View Applications (as indicated in HARDWARE-KEYBOARD-MAPPINGS.txt; can be used to change workspaces)
 - Wheel Left                    = copy
 - Wheel Right                   = Enter                                      (this mapping allows you to copy using Wheel Left, click-paste, and Enter to perform searches)
-- DPI Up/Down                   > scroll left/right
------------------
-"5 button" mouse
-- Left/Right Click              = defaults
-- Backward Key                  = backward                                   (Alt/Command + Left  in most browsers, but this macro often does not need to be set manually)
-- Forward Key                   = forward                                    (Alt/Command + Right in most browsers, but this macro often does not need to be set manually)
-- Wheel Click                   > Overview/Mission Control/View Applications (as indicated in HARDWARE-KEYBOARD-MAPPINGS.txt; can be used to change workspaces)
-- DPI Up/Down                   > scroll left/right
+- DPI Up/Down                   > scroll left/right			     (no need to do Shift + MouseScroll)
 -----------------

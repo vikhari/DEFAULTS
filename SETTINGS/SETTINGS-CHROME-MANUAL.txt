@@ -114,7 +114,7 @@ Custome Sync
 - Everything else                                       > no
 -----------------
 Extensions
-- AdBlock
+- AdBlock Plus
 - Bookolio
 - Dark Reader
 - Pinterest
