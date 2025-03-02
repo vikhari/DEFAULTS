@@ -9,7 +9,7 @@ All you'll ever need to do just about anything yet still feel not overwhelmed! #
 
 It is not likely many people have thought this much about shortcuts, cross-platform and cross-applicaiton!  
 I hope to eventually have some nice GIFs here to more easily convey the elegance of learning these core shortcuts and tools...
-That said, the real reason to follow this process is if you agree with the [philosophy](#bare-necessities---forget-about-your-worries--your-strife).  
+That said, the real reason to follow this process is if you agree with the [philosophy](https://github.com/vikhari/DEFAULTS?tab=readme-ov-file#bare-necessities---forget-about-your-worries-and-your-strife).  
 
 This is the approximate ideal order to learn shortcuts and build familiarity, from the ground up while balancing frequency needed:
 ```
