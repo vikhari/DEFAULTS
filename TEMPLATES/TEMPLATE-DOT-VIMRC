@@ -17,6 +17,7 @@ set backspace=indent,eol,start
 " Custom Shortcuts
 imap jj <ESC>
 cmap boo w !sudo tee >/dev/null % "use L (Load) not O (Ok)
+cnoremap xml !xmllint --format - "human-readable XML format
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " AUDIOVISUAL
